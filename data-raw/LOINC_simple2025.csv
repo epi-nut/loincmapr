@@ -1,0 +1,353 @@
+var_shortn,var_longn_eng,SHIP-START-4 Code Parts ,LOINC,LOINC code parts,Relation,Cardinality
+hgb,LAB: haemoglobin (mmol/l),"C: Haemoglobin
+P: mmol/l
+T: Pt
+S: Blood
+Sc: Qn
+M: Automated count",59260-0,"C: Hemoglobin 
+P: SCnc
+T: Pt
+S: Blood
+Sc: Qn
+M: ",=,1
+mch,LAB: MCH/mean corpuscular haemoglobin (fmol),"C: Erythrocyte mean corpuscular haemoglobin (fmol)
+P: fmol
+T: Pt
+S: Erythrocytes
+Sc: Qn
+M: Automated count",59468-9,"C: Erythrocyte mean corpuscular hemoglobin
+P: EntSub
+T: Pt
+S: Erythrocytes
+Sc: Qn
+M: ",=,1
+mchc,LAB: MCHC/mean corpuscular haemoglobin concentration (mmol/l),"C: Erythrocyte mean corpuscular haemoglobin concentration
+P: mmol/l
+T: Pt
+S: Erythrocytes
+Sc: Qn
+M: Automated count",59467-1,"C: Erythrocyte mean corpuscular hemoglobin concentration
+P: SCnc
+T: Pt
+S: Erythrocytes
+Sc: Qn
+M: ",=,1
+normo_pct,LAB: normoblasts (%),"C: Normoblasts 
+P: %
+T: Pt
+S: Blood
+Sc: Qn
+M: ",33990-3,"C: Normoblasts/100 leukocytes
+P: NFr
+T: Pt
+S: Blood
+Scale: Qn
+M: ",=,1
+normo,LAB: normoblasts (absolute) (Gpt/l),"C: Normoblasts (absolute) 
+P: Gpt/l
+T: Pt
+S: Blood
+Sc: Qn
+M:",715-3,"C: Normoblasts
+P: NCnc
+T: Pt
+S: Blood
+Sc: Qn
+M:  ",=,1
+quick,LAB: QUICK/thromboplastin time (%),"C: QUICK/thromboplastin time 
+P: %
+T: Pt
+S: PPP
+Sc: Qn
+M: ",5894-1,"C: Coagulation tissue factor induced actual/Normal
+P: RelTime
+T: Pt
+S: PPP
+Sc: Qn
+M:Coag ",~,1
+inr,LAB: thromboplastin time international normalized ratio,"C: Thromboplastin time INR
+P: 
+T: Pt
+S: PPP
+Sc: Qn
+M:",6301-6,"C: Coagulation tissue factor induced.INR
+P: RelTime 
+T: Pt
+S: PPP
+Sc: Qn
+M: Coag",=,1
+ptt,LAB: PTT/partial thromboplastin time (s),"C: Partial thromboplastin time 
+P: s
+T: Pt
+S: PPP
+Sc: Qn
+M: Coag",14979-9,"C: Coagulation surface induced
+P: Time
+T: Pt
+S: PPP
+Sc: Qn
+M: Coag",~,1
+fib_cl,LAB: fibrinogen (Clauss) (g/l),"C: Fibrinogen (Clauss)
+P: g/l
+T: Pt
+S: PPP
+Sc: Qn
+M: Coag",3255-7,"C: Fibrinogen
+P: MCnc
+T: Pt
+S: PPP
+Sc: Qn
+M: Coag ",=,1
+fib_p,LAB: fibrinogen (g/l),"C: Fibrinogen 
+P: g/l
+T: Pt
+S: PPP
+Sc: Qn
+M: Coag.dervied",48664-7,"C: Fibrinogen 
+P: MCnc
+T: Pt
+S: PPP
+Sc: Qn
+M: Coag.dervied",=,1
+cl_s,LAB: serum chloride (mmol/l),"C: Chloride 
+P: mmol/l
+T: Pt
+S: Serum/Plasma
+Sc: Qn
+M: Generic", 2075-0,"C: Chloride
+P: SCnc
+T: Pt
+S: Serum/Plasma
+Sc: Qn
+M: ",=,1
+ca_s,"LAB: serum calcium, total (mmol/l)","C: Calcium, total 
+P: mmol/l
+T: Pt
+S: Serum/Plasma
+Sc: Qn
+M:", 2000-8,"C: Calcium
+P: SCnc
+T: Pt
+S: Serum/Plasma
+Sc: Qn
+M: ",=,1
+na_s,LAB: Na/sodium (mmol/l),"C: Sodium 
+P: mmol/l
+T: Pt
+S: Serum/Plasma
+Sc: Qn
+M: ", 2951-2,"C: Sodium
+P: SCnc
+T: Pt
+S: Ser/Plas
+Sc: Qn
+M: ",=,1
+k_s,LAB: K/potassium (mmol/l),"C: Potassium 
+P: mmol/l
+T: Pt
+S: Serum/Plasma
+Sc: Qn
+M: ", 2823-3,"C: Potassium
+P: SCnc
+T: Pt
+S: Serum/Plasma
+Sc: Qn
+M: ",=,1
+mg_s,LAB: magnesium (mmol/l),"C: Magnesium 
+P: mmol/l
+T: Pt
+S: Serum/Plasma
+Sc: Qn
+M: Generic", 2601-3 ,"C: Magnesium
+P: SCnc
+T: Pt
+S: Serum/Plasma
+Sc: Qn
+M: ",=,1
+hba1c_ifcc,HbA1c (IFCC) (mmol/mol),"C: HbA1c
+P: mmol/mol
+T: Pt
+S: Blood
+Sc: Qn
+M: IFCC",59261-8,"C: Hemoglobin A1c/Hemoglobin.total
+P: SFr
+T: Pt
+S: Blood
+Sc: Qn
+M: IFCC ",=,1
+gluc_s,LAB: serum glucose (mmol/l),"C: Glucose 
+P: mmol/l
+T: Pt
+S: Serum/Plasma
+Sc: Qn
+M: ", 14749-6,"C: Glucose
+P: SCnc
+T: Pt
+S: Serum/Plasma
+Sc: Qn
+M: ",=,1
+crea_s,LAB: serum creatinine (µmol/l),"C: Creatinine 
+P: µmol/l
+T: Pt
+S: Serum/Plasma
+Sc: Qn
+M: Generic", 14682-9,"C: Creatinine
+P:SCnc
+T: Pt
+S: Serum/Plasma
+Sc: Qn
+M: ",=,1
+hrs_s,LAB: serum uric acid (µmol/l),"C: Uric acid 
+P: µmol/l
+T: Pt
+S: Serum/Plasma
+Sc: Qn
+M: Generic", 14933-6,"C: Urate
+P: SCnc
+T: Pt
+S: Ser/Plas
+S: Qn
+M: ",=,1
+cystatin,LAB: cystatin C (mg/l),"C: Cystatin C 
+P: mg/l
+T: Pt
+S: Serum/Plasma
+Sc: Qn
+M: Generic", 33863-2,"C: Cystatin C
+P: MCnc
+T: Pt
+S: Serum/Plasma
+Sc: Qn
+M: ",=,1
+ck_s,LAB: creatine kinase (total) (µkatal/l),"C: Creatine kinase (total) 
+P: µkatal/l
+T: Pt
+S: Serum/Plasma
+Sc: Qn
+M: ", 2157-6,"C: Creatine kinase
+P: CCnc
+T: Pt
+S: Ser/Plas
+Sc: Qn
+M: ",=,1
+ldh_s,LAB: lactate dehydrogenase (µkatal/l),"C: Lactate dehydrogenase 
+P: µkatal/l
+T: Pt
+S: Serum/Plasma
+Sc: Qn
+M:  ", 14804-9,"C: Lactate dehydrogenase
+P: CCnc
+T: Pt
+S: Serum/Plasma
+Sc: Qn
+M: Reaction: lactate to pyruvate ",=,1
+amyl_s,LAB: serum amylase (alpha-amylase) (µkatal/l),"C: Amylase (alpha-amylase) 
+P: µkatal/l
+T: Pt
+S: Serum/Plasma
+Sc: Qn
+M:", 1798-8,"C: Amylase
+P: CCnc
+T: Pt
+S: Serum/Plasma
+Sc: Qn
+M: ",=,1
+ggt_s,LAB: gamma-glutamyltransferase (µkatal/l),"C: gamma-glutamyltransferase
+P: µkatal/l
+T: Pt
+S: Serum/Plasma
+Sc: Qn
+M: Generic", 2324-2,"C: Gamma glutamyl transferase
+P: CCnc
+T: Pt
+S: Serum/Plasma
+Sc: Qn
+M: ",=,1
+lip_s,LAB: lipase (µkatal/l),"C: Lipase 
+P: µkatal/l
+T: Pt
+S: Serum/Plasma
+Sc: Qn
+M: ", 3040-3,"C: Triacylglycerol lipase
+P: CCnc
+T: Pt
+S: Ser/Plas
+Sc: Qn
+M: ",=,1
+tg_s,LAB: triglycerides (total) (mmol/l),"C: Triglycerides (total) 
+P: mmol/l
+T: Pt
+S: Serum/Plasma
+Sc: Qn
+", 14927-8,"C:Triglyceride
+P: SCnc
+T: Pt
+S: Serum/Plasma
+Sc: Qn
+M: ",=,1
+chol_s,LAB: cholesterol (total) (mmol/l),"C: Cholesterol (total) 
+P: mmol/l
+T: Pt
+S: Serum/Plasma
+Sc: Qn
+M: ", 14647-2,"C: Cholesterol
+P: SCnc
+T: Pt
+S: Serum/Plasma
+Sc: Qn
+M: ",=,1
+hdlch,LAB: HDL-cholesterol (mmol/l),"C: HDL - Cholesterol 
+P: mmol/l
+T: Pt
+S: Serum/Plasma
+Sc: Qn
+M: ", 14646-4,"C: Cholesterol.in HDL
+P: SCnc
+T: Pt
+S: Serum/Plasma
+Sc: Qn
+M: ",=,1
+crp_hs,CRP (high-sensitive) (mg/l),"C: CRP 
+P: mg/l
+T: Pt
+S: Serum/Plasma
+Sc: Qn
+M: High-sensitive", 30522-7,"C: C reactive protein
+P: MCnc
+T: Pt
+S: Serum/Plasma
+Sc: Qn
+M: High sensitivity ",=,1
+ust_trueb,"LAB: (urine) urine turbidity, clouding","C: Urine turbidity, clouding
+P: 
+T: Pt
+S: Urine
+Sc: Ord
+M: ", 20627-6,"C: Turbidity
+P: PrThr
+T: Pt
+S: Urine
+Sc: Ord
+M:",=,1
+crea_u,LAB: (urine) creatinine (mmol/l),"C: Creatinine
+P: mmol/l
+T: Pt
+S: Urine
+Sc: Qn
+M: ", 14683-7,"C: Creatinine
+P: SCnc
+T: Pt
+S: Urine
+Sc: Qn
+M: ",=,1
+alb_u,LAB: (urine) albumin (mg/l),"C: Albumin
+P: mg/l
+T: Pt
+S: Urine
+Sc: Qn
+M:  ",1754-1,"C: Albumin
+P: MCnc
+T: Pt
+S: Urine
+Sc: Qn
+M: ",=,1

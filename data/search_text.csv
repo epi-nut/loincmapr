@@ -1,0 +1,361 @@
+var_shortn,rank,component
+hgb,1,Hemoglobin
+hgb,2,Hemoglobin A
+hgb,3,Hemoglobin H
+hgb,4,Hemoglobin F
+hgb,5,Hemoglobin S
+mch,1,Erythrocyte mean corpuscular hemoglobin
+mch,2,Acer macrophyllum Ab.IgE
+mch,3,Muscle sarcolemma Ab
+mch,4,Mycoplasma genitalium rRNA
+mch,5,Mycoplasma hyopneumoniae Ab
+mchc,1,Reticulocyte corpuscular hemoglobin concentration mean
+mchc,2,Erythrocyte mean corpuscular hemoglobin concentration
+mchc,3,Mean chromosome banding resolution
+mchc,4,Neospora caninum Ab/Negative control
+mchc,5,Acer macrophyllum Ab.IgE/IgE.total
+normo_pct,1,Normoblasts
+normo_pct,2,Monoblasts
+normo_pct,3,Pronormoblasts
+normo_pct,4,Normoblasts/100 cells
+normo_pct,5,Normoblasts/100 blasts
+normo,1,Normoblasts
+normo,2,Monoblasts
+normo,3,Pronormoblasts
+normo,4,Normoblasts/100 cells
+normo,5,Normoblasts/100 blasts
+quick,1,Bismuth/Creatinine
+quick,2,Cortisol/Creatinine
+quick,3,Trichomonas sp
+quick,4,Sorbitol/Creatinine
+quick,5,QUEtiapine metabolite
+inr,1,Hematopoietic progenitor cell product characterization panel
+inr,2,Somatotropin post macimorelin stimulation panel
+inr,3,Thrombospondin type I domain-containing 7A Ag
+inr,4,Melanoma in situ.location relative to involved lateral margin
+inr,5,Clot initiation.kaolin induced^post heparin neutralization
+ptt,1,Pathologist interpretation
+ptt,2,Alpha 1 antitrypsin/Protein.total
+ptt,3,Neutrophil cytoplasmic Ab pattern
+ptt,4,Palmitoyl protein thioesterase
+ptt,5,Catecholamine metabolites pattern
+fib_cl,1,Fibrinogen
+fib_cl,2,Fibrinogen Ag
+fib_cl,3,Fibrinogen fragments
+fib_cl,4,Fibrin fragments
+fib_cl,5,Fibrinogen fragments Ag
+fib_p,1,Fibrinogen
+fib_p,2,Fibrinogen Ag
+fib_p,3,Fibrinogen fragments
+fib_p,4,Fibrin fragments
+fib_p,5,Fibrinogen fragments Ag
+cl_s,1,Chloride
+cl_s,2,Chlorine
+cl_s,3,Chlordane
+cl_s,4,Cephaloridine
+cl_s,5,chlorproPAMIDE
+ca_s,1,Calcium
+ca_s,2,Calcium oxalate
+ca_s,3,Calcium carbonate/Total
+ca_s,4,Calcium phosphate/Total
+ca_s,5,Calcitriol
+na_s,1,Sodium
+na_s,2,Scandium
+na_s,3,Indium
+na_s,4,Cadmium
+na_s,5,Niobium
+k_s,1,Potassium
+k_s,2,Potassium^2nd specimen
+k_s,3,Potassium^3rd specimen
+k_s,4,Potassium^pre dialysis
+k_s,5,Potassium^post dialysis
+mg_s,1,Magnesium
+mg_s,2,Magnesium cutoff
+mg_s,3,Magnesium.ionized
+mg_s,4,Germanium
+mg_s,5,Magnesium/Creatinine
+hba1c_ifcc,1,HBA1 gene.c.223G>C
+hba1c_ifcc,2,HNA 1c Ab
+hba1c_ifcc,3,HLA-C
+hba1c_ifcc,4,HPA-1
+hba1c_ifcc,5,Hemoglobin A1c/Hemoglobin.total
+gluc_s,1,Glucose
+gluc_s,2,Glucose.PO
+gluc_s,3,Glucose.IV
+gluc_s,4,Glucosidase
+gluc_s,5,Glucosamine
+crea_s,1,Creatinine
+crea_s,2,Creatine
+crea_s,3,Carnitine
+crea_s,4,Gold/Creatinine
+crea_s,5,Creatinine panel
+hrs_s,1,Sorbic acid Ab.IgE
+hrs_s,2,Organic acids
+hrs_s,3,Gastric acid
+hrs_s,4,Urtica dioica Ab.IgE
+hrs_s,5,Urtica dioica Ab.IgG
+cystatin,1,Cystatin C
+cystatin,2,Nystatin
+cystatin,3,Cystatin C/Creatinine
+cystatin,4,Cystine
+cystatin,5,Cytokeratin cells
+ck_s,1,Creatine kinase
+ck_s,2,Creatine Kinase.MB
+ck_s,3,Creatine kinase.MB
+ck_s,4,Creatine kinase.BB
+ck_s,5,Creatine kinase.MM
+ldh_s,1,Lactate dehydrogenase
+ldh_s,2,Lactate dehydrogenase 2
+ldh_s,3,Lactate dehydrogenase 1
+ldh_s,4,Lactate dehydrogenase 3
+ldh_s,5,Lactate dehydrogenase 4
+amyl_s,1,Amylase
+amyl_s,2,Amylase.P1
+amyl_s,3,Amylase.P2
+amyl_s,4,Amylase.P3
+amyl_s,5,Amylase.S1
+ggt_s,1,Gamma glutamyl transferase
+ggt_s,2,Gamma glutamyl transferase.macromolecular
+ggt_s,3,Gamma aminobutyrate.free
+ggt_s,4,Gamma glutamyl transferase/Aspartate aminotransferase
+ggt_s,5,Gamma aminobutyrate
+lip_s,1,Lipolase Ab.IgE
+lip_s,2,Lipids
+lip_s,3,Lipid panel
+lip_s,4,Lipase.macromolecular
+lip_s,5,Palatinase
+tg_s,1,Triglyceride
+tg_s,2,Triglyceride^post CFst
+tg_s,3,Triglyceride.in VLDL
+tg_s,4,Triglyceride+ester.in HDL
+tg_s,5,Triglyceride+ester.in IDL
+chol_s,1,Cholesterol
+chol_s,2,Cholesterol/Total
+chol_s,3,Cholestanol
+chol_s,4,Cholesterol.in HDL
+chol_s,5,Cholesterol.in LDL
+hdlch,1,7-Dehydrocholesterol
+hdlch,2,8-Dehydrocholesterol
+hdlch,3,Cholesterol
+hdlch,4,8(9)-Cholestenol
+hdlch,5,"1,1-Dichloroethylene"
+crp_hs,1,Carbapenem
+crp_hs,2,Cariprazine
+crp_hs,3,Carp Ab.IgE
+crp_hs,4,Macrophages
+crp_hs,5,Carisoprodol
+ust_trueb,1,Turbidity
+ust_trueb,2,Tumor budding
+ust_trueb,3,Rubidium
+ust_trueb,4,Tilmicosin
+ust_trueb,5,Clostridium botulinum
+crea_u,1,Creatinine
+crea_u,2,Creatine
+crea_u,3,Carnitine
+crea_u,4,Gold/Creatinine
+crea_u,5,Creatinine panel
+alb_u,1,Albumin
+alb_u,2,Prealbumin
+alb_u,3,IgG/Albumin
+alb_u,4,Aluminum
+alb_u,5,Albumin given
+wbc,1,Leukocytes
+wbc,2,Reticulocytes
+wbc,3,Blasts/leukocytes
+wbc,4,Myelocytes
+wbc,5,Electrolytes
+rbc,1,Erythrocytes
+rbc,2,Packed erythrocytes
+rbc,3,Erythrocyte size
+rbc,4,Rh
+rbc,5,Burr cells/100 erythrocytes
+mcv,1,Complement C1s actual/Normal
+mcv,2,Erythrocyte mean corpuscular volume
+mcv,3,Staphylococcus aureus VNTR pattern
+mcv,4,Lipase.macromolecular
+mcv,5,Reticulocyte mean volume
+rdw,1,Erythrocyte distribution width
+rdw,2,Platelet distribution width
+rdw,3,Platelet dry mass distribution width
+rdw,4,Reticulocyte distribution width
+rdw,5,Monocyte distribution width
+plt,1,Stomatocytes
+plt,2,Lymphocytes
+plt,3,Prolymphocytes
+plt,4,Promyelocytes
+plt,5,pH
+mpv,1,Platelet mean volume
+mpv,2,Mean platelet dry mass
+mpv,3,Platelets panel
+mpv,4,Treponema pallidum PolA gene
+mpv,5,Pooled platelet concentrate units given
+ne_pct_e,1,Neutrophils
+ne_pct_e,2,Neutrophil Ab
+ne_pct_e,3,Neurophysin
+ne_pct_e,4,Neutrophils/100 cells
+ne_pct_e,5,Neutrophils.band form
+ly_pct_e,1,Lymphocytes
+ly_pct_e,2,Lymphocytes B
+ly_pct_e,3,Lymphocytes.IgG
+ly_pct_e,4,Lymphocytes.IgA
+ly_pct_e,5,Lymphocytes.IgM
+mo_pct_e,1,Monocytes
+mo_pct_e,2,Promonocytes
+mo_pct_e,3,Monocytes.abnormal
+mo_pct_e,4,Monocytes.immature
+mo_pct_e,5,Ovalocytes
+eo_pct_e,1,Eosinophils
+eo_pct_e,2,Eosinophils.immature
+eo_pct_e,3,Eosinophils/100 cells
+eo_pct_e,4,Eosinophils/leukocytes
+eo_pct_e,5,Eosinophils/100 leukocytes
+ba_pct_e,1,Basophils
+ba_pct_e,2,Basophils.immature
+ba_pct_e,3,Basophils/100 cells
+ba_pct_e,4,Basophilic stippling
+ba_pct_e,5,Basophils/leukocytes
+ne_e,1,Neutrophils
+ne_e,2,Neutrophil Ab
+ne_e,3,Neurophysin
+ne_e,4,Neutrophils/100 cells
+ne_e,5,Neutrophils.band form
+ly_e,1,Lymphocytes
+ly_e,2,Lymphocytes B
+ly_e,3,Lymphocytes.IgG
+ly_e,4,Lymphocytes.IgA
+ly_e,5,Lymphocytes.IgM
+gfr_larsson_t,1,Retinoate
+gfr_larsson_t,2,Gentisate
+gfr_larsson_t,3,First name
+gfr_larsson_t,4,Time last dose
+gfr_larsson_t,5,Finasteride
+ust_farb,1,Color
+ust_farb,2,Color^1st tube
+ust_farb,3,Color^2nd tube
+ust_farb,4,Color^3rd tube
+ust_farb,5,Color^4th tube
+hct,1,Hematocrit
+hct,2,Rheumatoid factor.IgM
+hct,3,Rheumatoid factor.IgA
+hct,4,Rheumatoid factor.IgG
+hct,5,Hematocrit/Hemoglobin
+hba1c,1,H Ab
+hba1c,2,BRCA1 Ag
+hba1c,3,B Ab
+hba1c,4,B Ag
+hba1c,5,Hemoglobin A1c/Hemoglobin.total
+gfrmdrd,1,Gentisate
+gfrmdrd,2,Retinoate
+gfrmdrd,3,Ergotamine
+gfrmdrd,4,Myristoleate
+gfrmdrd,5,Gram positive bacteria DNA
+gfrcapa,1,CFTR gene full mutation analysis
+gfrcapa,2,CTRC gene full mutation analysis
+gfrcapa,3,FTCD gene full mutation analysis
+gfrcapa,4,Granulocyte colony stimulating factor
+gfrcapa,5,Residual tumor classification
+gfr_ckdepi,1,Glomerular filtration rate/1.73 sq M.predicted.non black
+gfr_ckdepi,2,Glomerular filtration rate/1.73 sq M.predicted.male
+gfr_ckdepi,3,Glomerular filtration rate/1.73 sq M.predicted.female
+gfr_ckdepi,4,Glomerular filtration rate/1.73 sq M
+gfr_ckdepi,5,Glomerular filtration rate/1.73 sq M.predicted
+alat_s,1,Alanine aminotransferase
+alat_s,2,Alanine aminotransferase.macromolecular
+alat_s,3,Alanine aminotransferase/Aspartate aminotransferase
+alat_s,4,Alanine aminopeptidase
+alat_s,5,Alanine+Ethanolamine
+asat_s,1,Aspartate aminotransferase
+asat_s,2,Aspartate aminotransferase.macromolecular
+asat_s,3,Aspartate aminotransferase/Alanine aminotransferase
+asat_s,4,Aspartate/Creatinine
+asat_s,5,Aspartate aminotransferase.macromolecular/Aspartate aminotransferase.total
+alb_s,1,Albumin
+alb_s,2,Prealbumin
+alb_s,3,IgG/Albumin
+alb_s,4,Aluminum
+alb_s,5,Albumin given
+ferri,1,Ferritin
+ferri,2,Ergocristine
+ferri,3,Etravirine
+ferri,4,Periostin
+ferri,5,Ferning
+ldlch,1,Cholesterol
+ldlch,2,8(9)-Cholestenol
+ldlch,3,7-Dehydrocholesterol
+ldlch,4,8-Dehydrocholesterol
+ldlch,5,Cholesterol.in LDL
+tsh,1,Tumor infiltrating lymphocytes
+tsh,2,Third most predominant hemoglobin
+tsh,3,Thyroid stimulating immunoglobulins
+tsh,4,Thyrotropin releasing hormone
+tsh,5,N-Stearoylsphingosine
+ft3,1,Triiodothyronine.free
+ft3,2,Triiodothyronine
+ft3,3,Triiodothyronine Ab
+ft3,4,Triiodothyronine.reverse
+ft3,5,Triiodothyronine.free^baseline
+ft4,1,Thyroxine.free
+ft4,2,Thyroxine
+ft4,3,Thyroxine free index
+ft4,4,Thyroxine Ab
+ft4,5,cefTRIAXone.free
+tpo_ak,1,Hydantoin-5-propionate/Creatinine
+tpo_ak,2,Other fatty acid oxidation disorders
+tpo_ak,3,Total thyroxine binding capacity
+tpo_ak,4,Arthropod identified
+tpo_ak,5,Mitochondria DNA complex I targeted mutation analysis
+ph_u,1,pH
+ph_u,2,Phenol
+ph_u,3,Phorate
+ph_u,4,Phenols
+ph_u,5,Phytate
+leuco_u,1,Leukocytes
+leuco_u,2,Leukocyte casts
+leuco_u,3,Leukocytes other
+leuco_u,4,Leukocyte clumps
+leuco_u,5,Leukocyte esterase
+nitri_u,1,Nitrite
+nitri_u,2,Nitrate
+nitri_u,3,Amyl nitrite
+nitri_u,4,Nicotinurate
+nitri_u,5,Citrate
+prot_u,1,Protein
+prot_u,2,Protein C
+prot_u,3,Protein S
+prot_u,4,P63 protein
+prot_u,5,Calprotectin
+gluc_u,1,Glucose
+gluc_u,2,Glucose.PO
+gluc_u,3,Glucose.IV
+gluc_u,4,Glucosidase
+gluc_u,5,Glucosamine
+ket_u,1,Ketones
+ket_u,2,Acetone
+ket_u,3,Estrone
+ket_u,4,Ketamine
+ket_u,5,Ethylone
+ubg_u,1,Urobilinogen
+ubg_u,2,Urobilin
+ubg_u,3,Cryofibrinogen
+ubg_u,4,Fibrinogen
+ubg_u,5,Uridine
+bili_u,1,Bilirubin
+bili_u,2,Bilirubin casts
+bili_u,3,Bilirubin/Total
+bili_u,4,Bilirubin excess
+bili_u,5,Bilirubin crystals
+ery_u,1,Erythrocytes
+ery_u,2,Erythrocyte size
+ery_u,3,Erythrocyte shape
+ery_u,4,Erythrocytes.CD55
+ery_u,5,Erythrocytes.CD59
+hb_u,1,Hemoglobin
+hb_u,2,Hemoglobin A
+hb_u,3,Hemoglobin H
+hb_u,4,Hemoglobin F
+hb_u,5,Hemoglobin S
+sg_u,1,Adenovirus type
+sg_u,2,Adenosine
+sg_u,3,Desaminotyrosine
+sg_u,4,Adenosine monophosphate.cyclic/Creatinine
+sg_u,5,Consistency

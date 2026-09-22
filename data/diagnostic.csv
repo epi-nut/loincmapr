@@ -1,0 +1,73 @@
+var_shortn,query,llm_answer,text_top1,llm_top1,expert,text_ok,llm_ok
+hgb,haemoglobin,Haemoglobin (mM/L),Hemoglobin,Hemoglobin,Hemoglobin,TRUE,TRUE
+mch,mch/mean corpuscular haemoglobin,Mean Corpuscular Hemoglobin,Erythrocyte mean corpuscular hemoglobin,Erythrocyte mean corpuscular hemoglobin,Erythrocyte mean corpuscular hemoglobin,TRUE,TRUE
+mchc,mchc/mean corpuscular haemoglobin concentration,Mean Corpuscular Haemoglobin Concentration,Reticulocyte corpuscular hemoglobin concentration mean,Erythrocyte mean corpuscular hemoglobin concentration,Erythrocyte mean corpuscular hemoglobin concentration,FALSE,TRUE
+normo_pct,normoblasts,Bone Marrow Derived Normoblasts Percentage,Normoblasts,Bone marrow transplant chimerism panel,Normoblasts/100 leukocytes,FALSE,FALSE
+normo,normoblasts,Absolute Normoblast Count (Gpt/l),Normoblasts,Transfuse blood product.other,Normoblasts,TRUE,FALSE
+quick,quick/thromboplastin time,Prothrombin Time (%),Bismuth/Creatinine,Prothrombin Ab.IgM,Coagulation tissue factor induced actual/Normal,FALSE,FALSE
+inr,thromboplastin time international normalized ratio,Thromboplastin Time International Normalized Ratio (PT INR),Hematopoietic progenitor cell product characterization panel,Hematopoietic progenitor cell product characterization panel,Coagulation tissue factor induced.INR,FALSE,FALSE
+ptt,ptt/partial thromboplastin time,Partial Thromboplastin Time,Pathologist interpretation,Mitochondria Ab pattern,Coagulation surface induced,FALSE,FALSE
+fib_cl,fibrinogen,Fibrinogen (Clauss) Assay,Fibrinogen,Fibrinogen Ag,Fibrinogen,TRUE,FALSE
+fib_p,fibrinogen,Fibrinogen (grams per liter),Fibrinogen,Fibrinogen,Fibrinogen,TRUE,TRUE
+cl_s,chloride,Serum Chloride Measurement,Chloride,Chloride,Chloride,TRUE,TRUE
+ca_s,"calcium, total",Serum Calcium Measurement,Calcium,Calcium,Calcium,TRUE,TRUE
+na_s,na/sodium,Sodium (mmol/L),Sodium,Sodium,Sodium,TRUE,TRUE
+k_s,k/potassium,Potassium Level,Potassium,Potassium,Potassium,TRUE,TRUE
+mg_s,magnesium,Magnesium (millimoles per liter),Magnesium,Magnesium,Magnesium,TRUE,TRUE
+hba1c_ifcc,hba1c,Hemoglobin A1c (International Federation of Clinical Chemistry),HBA1 gene.c.223G>C,Hemoglobin A1c,Hemoglobin A1c/Hemoglobin.total,FALSE,FALSE
+gluc_s,glucose,Serum Glucose,Glucose,Glucose,Glucose,TRUE,TRUE
+crea_s,creatinine,Serum Creatinine Measurement,Creatinine,Creatinine,Creatinine,TRUE,TRUE
+hrs_s,uric acid,Serum Uric Acid,Sorbic acid Ab.IgE,Sorbic acid Ab.IgE,Urate,FALSE,FALSE
+cystatin,cystatin c,Cystatin C Measurement in Serum,Cystatin C,Cystatin C,Cystatin C,TRUE,TRUE
+ck_s,creatine kinase,Creatine Kinase (Total) (µkat/L),Creatine kinase,Creatine kinase,Creatine kinase,TRUE,TRUE
+ldh_s,lactate dehydrogenase,Lactate Dehydrogenase (micromole per liter),Lactate dehydrogenase,Lactate dehydrogenase,Lactate dehydrogenase,TRUE,TRUE
+amyl_s,amylase,Serum Amylase,Amylase,Amylase,Amylase,TRUE,TRUE
+ggt_s,gamma-glutamyl transferase,Gamma-glutamyl transferase test,Gamma glutamyl transferase,Gamma glutamyl transferase,Gamma glutamyl transferase,TRUE,TRUE
+lip_s,lipase,Lipase (microkatal/l),Lipolase Ab.IgE,Lipolase Ab.IgE,Triacylglycerol lipase,FALSE,FALSE
+tg_s,triglycerides,Triglycerides,Triglyceride,Triglyceride,Triglyceride,TRUE,TRUE
+chol_s,cholesterol,Laboratory Test for Total Cholesterol Level,Cholesterol,Laboratory ask at order entry panel,Cholesterol,TRUE,FALSE
+hdlch,hdl-cholesterol,High-Density Lipoprotein Cholesterol,7-Dehydrocholesterol,Hematopoietic progenitor cells,Cholesterol.in HDL,FALSE,FALSE
+crp_hs,crp,C-Reactive Protein (High-Sensitivity),Carbapenem,C reactive protein,C reactive protein,FALSE,TRUE
+ust_trueb,"turbidity, clouding",Urine Cloudiness Test,Turbidity,Coding system,Turbidity,TRUE,FALSE
+crea_u,creatinine,Urine Creatinine Measurement,Creatinine,Creatinine,Creatinine,TRUE,TRUE
+alb_u,albumin,Urine Albumin Measurement,Albumin,Albumin,Albumin,TRUE,TRUE
+wbc,wbc/leukocytes,White Blood Cell Count,Leukocytes,Whole blood pediatric units given,Leukocytes,TRUE,FALSE
+rbc,rbc/erythrocytes,Red Blood Cells (Turbidity Per Thousand),Erythrocytes,Bladder cells,Erythrocytes,TRUE,FALSE
+mcv,mcv/mean corpuscular volume,Mean Corpuscular Volume,Complement C1s actual/Normal,Erythrocyte mean corpuscular volume,Erythrocyte mean corpuscular volume,FALSE,TRUE
+rdw,rdw/red cell distribution width,Red Cell Distribution Width,Erythrocyte distribution width,Reticulocyte distribution width,Erythrocyte distribution width,TRUE,FALSE
+plt,plt/thrombocytes,Platelets (Gpt/µL),Stomatocytes,Platelets,Platelets,FALSE,TRUE
+mpv,mpv/mean platelet volume,Mean Platelet Volume (fL),Platelet mean volume,Platelet mean volume,Platelet mean volume,TRUE,TRUE
+ne_pct_e,neutrophils,Neutrophil Percentage,Neutrophils,Neutrophil Ab,Neutrophils/100 leukocytes,FALSE,FALSE
+ly_pct_e,lymphocytes,Lymphocyte Percentage,Lymphocytes,Lymphocyte Ab,Lymphocytes/100 leukocytes,FALSE,FALSE
+mo_pct_e,monocytes,Monocytes Percentage,Monocytes,Monocytes,Monocytes/100 leukocytes,FALSE,FALSE
+eo_pct_e,eosinophils,Eosinophil Percentage,Eosinophils,Eosinophils,Eosinophils/100 leukocytes,FALSE,FALSE
+ba_pct_e,basophils,Basophils Percentage,Basophils,Basophils,Basophils/100 leukocytes,FALSE,FALSE
+ne_e,neutrophils,Absolute Neutrophil Count,Neutrophils,Beta endorphin,Neutrophils,TRUE,FALSE
+ly_e,lymphocytes,Lymphocytes (absolute) (cells/µL),Lymphocytes,Lymphocytes,Lymphocytes,TRUE,TRUE
+gfr_larsson_t,gfr estimated ),Estimated Glomerular Filtration Rate,Retinoate,Mitogen stimulated gamma interferon,Glomerular filtration rate/1.73 sq M.predicted,FALSE,FALSE
+ust_farb,color,Urine Color,Color,Color,Color,TRUE,TRUE
+hct,haematocrit,Hematocrit,Hematocrit,Hematocrit,Hematocrit,TRUE,TRUE
+hba1c,hb a1c,Hemoglobin A1c,H Ab,Hemoglobin A1c,Hemoglobin A1c/Hemoglobin.total,FALSE,FALSE
+gfrmdrd,gfr estimated,Estimated Glomerular Filtration Rate (MDRD),Gentisate,Mitogen stimulated gamma interferon,Glomerular filtration rate/1.73 sq M.predicted | Glomerular filtration rate/1.73 sq M.predicted.non black,FALSE,FALSE
+gfrcapa,gfr calculated from cystatin,GFR (Cystatin C) (ml/min/1.73m²),CFTR gene full mutation analysis,Gemfibrozil,Glomerular filtration rate/1.73 sq M.predicted,FALSE,FALSE
+gfr_ckdepi,glomerular filtration rate calculated from creatinine,Glomerular Filtration Rate (CKD-EPI formula),Glomerular filtration rate/1.73 sq M.predicted.non black,Glomerular filtration rate/1.73 sq M,Glomerular filtration rate/1.73 sq M.predicted | Glomerular filtration rate/1.73 sq M.predicted.non black,TRUE,FALSE
+alat_s,alanine aminotransferase,Alanine Aminotransferase (ALAT/GPT),Alanine aminotransferase,Alanine aminotransferase,Alanine aminotransferase,TRUE,TRUE
+asat_s,aspartate aminotransferase,Aspartate Aminotransferase (ASAT/GOT) (micromoles per liter),Aspartate aminotransferase,Aspartate aminotransferase,Aspartate aminotransferase,TRUE,TRUE
+alb_s,albumin,Serum Albumin Level,Albumin,Albumin,Albumin,TRUE,TRUE
+ferri,ferritin,Ferritin (micrograms per liter),Ferritin,Ferritin,Ferritin,TRUE,TRUE
+ldlch,ldl-cholesterol,Low-Density Lipoprotein Cholesterol,Cholesterol,Apolipoprotein B/Cholesterol.in LDL,Cholesterol.in LDL,FALSE,FALSE
+tsh,tsh/thyroid-stimulating hormone,Thyroid-Stimulating Hormone Test,Tumor infiltrating lymphocytes,Thyroid hormone uptake,Thyrotropin,FALSE,FALSE
+ft3,"ft3/triiodothyronine, free",Free Triiodothyronine,Triiodothyronine.free,Triiodothyronine,Triiodothyronine.free,TRUE,FALSE
+ft4,"ft4/thyroxine, free",Free Thyroxine,Thyroxine.free,Reboxetine,Thyroxine.free,TRUE,FALSE
+tpo_ak,tpo-ak/anti-thyroid peroxidase antibody,Anti-thyroid peroxidase antibody test,Hydantoin-5-propionate/Creatinine,Other fatty acid oxidation disorders,Thyroperoxidase Ab,FALSE,FALSE
+ph_u,ph,Urine pH,pH,pH,pH,TRUE,TRUE
+leuco_u,leukocytes,Urinalysis Leukocytes Count,Leukocytes,Urinalysis complete panel,Leukocytes,TRUE,FALSE
+nitri_u,nitrite,Urine Nitrite Test,Nitrite,Nitrite,Nitrite,TRUE,TRUE
+prot_u,protein,Urine Protein Measurement,Protein,Protein S,Protein,TRUE,FALSE
+gluc_u,glucose,Urine Glucose Measurement,Glucose,Glucose,Glucose,TRUE,TRUE
+ket_u,ketone,Urine Ketone Measurement,Ketones,Ketones,Ketones,TRUE,TRUE
+ubg_u,urobilinogen,Urobilinogen Urine Measurement,Urobilinogen,Urobilinogen,Urobilinogen,TRUE,TRUE
+bili_u,bilirubin,Urine Bilirubin Measurement,Bilirubin,Bilirubin casts,Bilirubin,TRUE,FALSE
+ery_u,erythrocytes,Urinalysis with Erythrocytes Count,Erythrocytes,Urinalysis type of crystal panel,Erythrocytes,TRUE,FALSE
+hb_u,haemoglobin,Urine Hemoglobin,Hemoglobin,Hemoglobin,Hemoglobin,TRUE,TRUE
+sg_u,density,Urine Specific Gravity,Adenovirus type,Specific gravity,NA,FALSE,FALSE

@@ -1,0 +1,73 @@
+var_shortn,var_longn_eng,llm_answer,model,date
+hgb,LAB: haemoglobin (mmol/l),Haemoglobin (mM/L),qwen2.5:7b,2026-09-22
+mch,LAB: MCH/mean corpuscular haemoglobin (fmol),Mean Corpuscular Hemoglobin,qwen2.5:7b,2026-09-22
+mchc,LAB: MCHC/mean corpuscular haemoglobin concentration (mmol/l),Mean Corpuscular Haemoglobin Concentration,qwen2.5:7b,2026-09-22
+normo_pct,LAB: normoblasts (%),Bone Marrow Derived Normoblasts Percentage,qwen2.5:7b,2026-09-22
+normo,LAB: normoblasts (absolute) (Gpt/l),Absolute Normoblast Count (Gpt/l),qwen2.5:7b,2026-09-22
+quick,LAB: QUICK/thromboplastin time (%),Prothrombin Time (%),qwen2.5:7b,2026-09-22
+inr,LAB: thromboplastin time international normalized ratio,Thromboplastin Time International Normalized Ratio (PT INR),qwen2.5:7b,2026-09-22
+ptt,LAB: PTT/partial thromboplastin time (s),Partial Thromboplastin Time,qwen2.5:7b,2026-09-22
+fib_cl,LAB: fibrinogen (Clauss) (g/l),Fibrinogen (Clauss) Assay,qwen2.5:7b,2026-09-22
+fib_p,LAB: fibrinogen (g/l),Fibrinogen (grams per liter),qwen2.5:7b,2026-09-22
+cl_s,LAB: serum chloride (mmol/l),Serum Chloride Measurement,qwen2.5:7b,2026-09-22
+ca_s,"LAB: serum calcium, total (mmol/l)",Serum Calcium Measurement,qwen2.5:7b,2026-09-22
+na_s,LAB: Na/sodium (mmol/l),Sodium (mmol/L),qwen2.5:7b,2026-09-22
+k_s,LAB: K/potassium (mmol/l),Potassium Level,qwen2.5:7b,2026-09-22
+mg_s,LAB: magnesium (mmol/l),Magnesium (millimoles per liter),qwen2.5:7b,2026-09-22
+hba1c_ifcc,HbA1c (IFCC) (mmol/mol),Hemoglobin A1c (International Federation of Clinical Chemistry),qwen2.5:7b,2026-09-22
+gluc_s,LAB: serum glucose (mmol/l),Serum Glucose,qwen2.5:7b,2026-09-22
+crea_s,LAB: serum creatinine (µmol/l),Serum Creatinine Measurement,qwen2.5:7b,2026-09-22
+hrs_s,LAB: serum uric acid (µmol/l),Serum Uric Acid,qwen2.5:7b,2026-09-22
+cystatin,LAB: cystatin C (mg/l),Cystatin C Measurement in Serum,qwen2.5:7b,2026-09-22
+ck_s,LAB: creatine kinase (total) (µkatal/l),Creatine Kinase (Total) (µkat/L),qwen2.5:7b,2026-09-22
+ldh_s,LAB: lactate dehydrogenase (µkatal/l),Lactate Dehydrogenase (micromole per liter),qwen2.5:7b,2026-09-22
+amyl_s,LAB: serum amylase (alpha-amylase) (µkatal/l),Serum Amylase,qwen2.5:7b,2026-09-22
+ggt_s,LAB: gamma-glutamyl transferase (µkatal/l),Gamma-glutamyl transferase test,qwen2.5:7b,2026-09-22
+lip_s,LAB: lipase (µkatal/l),Lipase (microkatal/l),qwen2.5:7b,2026-09-22
+tg_s,LAB: triglycerides (total) (mmol/l),Triglycerides,qwen2.5:7b,2026-09-22
+chol_s,LAB: cholesterol (total) (mmol/l),Laboratory Test for Total Cholesterol Level,qwen2.5:7b,2026-09-22
+hdlch,LAB: HDL-cholesterol (mmol/l),High-Density Lipoprotein Cholesterol,qwen2.5:7b,2026-09-22
+crp_hs,LAB: CRP (high-sensitive) (mg/l),C-Reactive Protein (High-Sensitivity),qwen2.5:7b,2026-09-22
+ust_trueb,"LAB: (urine) urine turbidity, clouding",Urine Cloudiness Test,qwen2.5:7b,2026-09-22
+crea_u,LAB: (urine) creatinine (mmol/l),Urine Creatinine Measurement,qwen2.5:7b,2026-09-22
+alb_u,LAB: (urine) albumin (mg/l),Urine Albumin Measurement,qwen2.5:7b,2026-09-22
+wbc,LAB: WBC/leukocytes (Gpt/l),White Blood Cell Count,qwen2.5:7b,2026-09-22
+rbc,LAB: RBC/erythrocytes (Tpt/l),Red Blood Cells (Turbidity Per Thousand),qwen2.5:7b,2026-09-22
+mcv,LAB: mcv/mean corpuscular volume (fl),Mean Corpuscular Volume,qwen2.5:7b,2026-09-22
+rdw,LAB: RDW/red cell distribution width (%),Red Cell Distribution Width,qwen2.5:7b,2026-09-22
+plt,LAB: PLT/thrombocytes (Gpt/l),Platelets (Gpt/µL),qwen2.5:7b,2026-09-22
+mpv,LAB: MPV/mean platelet volume (fl),Mean Platelet Volume (fL),qwen2.5:7b,2026-09-22
+ne_pct_e,LAB: neutrophils (%),Neutrophil Percentage,qwen2.5:7b,2026-09-22
+ly_pct_e,LAB: lymphocytes (%),Lymphocyte Percentage,qwen2.5:7b,2026-09-22
+mo_pct_e,LAB: monocytes (%),Monocytes Percentage,qwen2.5:7b,2026-09-22
+eo_pct_e,LAB: eosinophils (%),Eosinophil Percentage,qwen2.5:7b,2026-09-22
+ba_pct_e,LAB: basophils (%),Basophils Percentage,qwen2.5:7b,2026-09-22
+ne_e,LAB: neutrophils (absolute) (Gpt/l),Absolute Neutrophil Count,qwen2.5:7b,2026-09-22
+ly_e,LAB: lymphocytes (absolute) (Gpt/l),Lymphocytes (absolute) (cells/µL),qwen2.5:7b,2026-09-22
+gfr_larsson_t,LAB: GFR estimated (Larsson) (77.24*(cystatin**-1.2623)) (ml/min),Estimated Glomerular Filtration Rate,qwen2.5:7b,2026-09-22
+ust_farb,LAB: (urine) urine color,Urine Color,qwen2.5:7b,2026-09-22
+hct,LAB: haematocrit,Hematocrit,qwen2.5:7b,2026-09-22
+hba1c,LAB: Hb A1c (%),Hemoglobin A1c,qwen2.5:7b,2026-09-22
+gfrmdrd,"LAB: GFR estimated (MDRD) (ml/min/1,73qm)",Estimated Glomerular Filtration Rate (MDRD),qwen2.5:7b,2026-09-22
+gfrcapa,"GFR (CAPA) (ml/min/1,73qm) calculated from cystatin",GFR (Cystatin C) (ml/min/1.73m²),qwen2.5:7b,2026-09-22
+gfr_ckdepi,Glomerular filtration rate (CKD-EPI formula) (ml/min) calculated from creatinine,Glomerular Filtration Rate (CKD-EPI formula),qwen2.5:7b,2026-09-22
+alat_s,LAB: alanine aminotransferase (ALAT/GPT) (µkatal/l),Alanine Aminotransferase (ALAT/GPT),qwen2.5:7b,2026-09-22
+asat_s,LAB: aspartate aminotransferase (ASAT/GOT) (µkatal/l),Aspartate Aminotransferase (ASAT/GOT) (micromoles per liter),qwen2.5:7b,2026-09-22
+alb_s,LAB: serum albumin (g/l),Serum Albumin Level,qwen2.5:7b,2026-09-22
+ferri,Ferritin (µg/l),Ferritin (micrograms per liter),qwen2.5:7b,2026-09-22
+ldlch,LAB: LDL-cholesterol (mmol/l),Low-Density Lipoprotein Cholesterol,qwen2.5:7b,2026-09-22
+tsh,LAB: TSH/thyroid-stimulating hormone (mU/l),Thyroid-Stimulating Hormone Test,qwen2.5:7b,2026-09-22
+ft3,"LAB: fT3/triiodothyronine, free (pmol/l)",Free Triiodothyronine,qwen2.5:7b,2026-09-22
+ft4,"LAB: fT4/thyroxine, free (pmol/l)",Free Thyroxine,qwen2.5:7b,2026-09-22
+tpo_ak,LAB: TPO-AK/anti-thyroid peroxidase antibody (U/ml),Anti-thyroid peroxidase antibody test,qwen2.5:7b,2026-09-22
+ph_u,LAB: (urine) pH,Urine pH,qwen2.5:7b,2026-09-22
+leuco_u,LAB: (urine) leukocytes (Zellen/µl),Urinalysis Leukocytes Count,qwen2.5:7b,2026-09-22
+nitri_u,LAB: (urine) nitrite (pos/neg),Urine Nitrite Test,qwen2.5:7b,2026-09-22
+prot_u,LAB: (urine) protein (g/l),Urine Protein Measurement,qwen2.5:7b,2026-09-22
+gluc_u,LAB: (urine) glucose (mmol/l),Urine Glucose Measurement,qwen2.5:7b,2026-09-22
+ket_u,LAB: (urine) ketone (mmol/l),Urine Ketone Measurement,qwen2.5:7b,2026-09-22
+ubg_u,LAB: (urine) urobilinogen (µmol/l),Urobilinogen Urine Measurement,qwen2.5:7b,2026-09-22
+bili_u,LAB: (urine) bilirubin (µmol/l),Urine Bilirubin Measurement,qwen2.5:7b,2026-09-22
+ery_u,LAB: (urine) erythrocytes (/µl),Urinalysis with Erythrocytes Count,qwen2.5:7b,2026-09-22
+hb_u,LAB: (urine) haemoglobin (mg/dl),Urine Hemoglobin,qwen2.5:7b,2026-09-22
+sg_u,LAB: (urine) density (kg/l),Urine Specific Gravity,qwen2.5:7b,2026-09-22

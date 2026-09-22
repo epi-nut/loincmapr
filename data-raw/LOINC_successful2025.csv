@@ -1,0 +1,1127 @@
+var_shortn,var_longn_eng,var_method_info,SHIP-START-4 Code Parts ,LOINC,LOINC code parts,Relation,Cardinality,,,,,
+wbc,LAB: WBC/leukocytes (Gpt/l),,"C: Leucocytes
+P: Gpt/l
+T: Pt
+S: Blood
+Sc: Qn
+M: ",6690-2,"C: Leucocytes
+P: NCnc
+T: Pt
+S: Blood
+Sc: Qn
+M: Automated count",=,2,,,,,
+,,,,26464-8,"C: Leucocytes
+P: NCnc
+T: Pt
+S: Blood
+Sc: Qn
+M:",=,,,,,,
+rbc,LAB: RBC/erythrocytes (Tpt/l),,"C: Erythrocytes 
+P: Tpt/l
+T: Pt
+S: Blood
+Sc: Qn
+M: ",789-8,"C:  Erythrocytes 
+P: NCnc
+T: Pt
+S: Blood
+Sc: Qn
+M: Automated count",=,2,,,,,
+,,,,26453-1,"C:  Erythrocytes 
+P: NCnc
+T: Pt
+S: Blood
+Sc: Qn
+M: Automated count",=,,,,,,
+hgb,LAB: haemoglobin (mmol/l),,"C: Haemoglobin
+P: mmol/l
+T: Pt
+S: Blood
+Sc: Qn
+M: ",59260-0,"C: Hemoglobin 
+P: SCnc
+T: Pt
+S: Blood
+Sc: Qn
+M: ",=,1,,,,,
+mcv,LAB: mcv/mean corpuscular volume (fl),,"C: Erythrocyte mean corpuscular volume 
+P: volume (fl)
+T: Pt
+S: Erythrocytes
+Sc: Qn
+M: ",787-2 ,"C: Erythrocyte mean corpuscular volume
+P: EntVol
+T: Pt
+S: RBC
+Sc: Qn
+M: Automated count ",=,2,,,,,
+,,,,30428-7,"C: Erythrocyte mean corpuscular volume
+P: EntVol
+T: Pt
+S: RBC
+Sc: Qn
+M:",=,,,,,,
+mch,LAB: MCH/mean corpuscular haemoglobin (fmol),,"C: Erythrocyte mean corpuscular haemoglobin (fmol)
+P: fmol
+T: Pt
+S: Erythrocytes
+Sc: Qn
+M: ",59468-9,"C: Erythrocyte mean corpuscular hemoglobin
+P: EntSub
+T: Pt
+S: Erythrocytes
+Sc: Qn
+M: ",=,1,,,,,
+mchc,LAB: MCHC/mean corpuscular haemoglobin concentration (mmol/l),,"C: Erythrocyte mean corpuscular haemoglobin concentration
+P: mmol/l
+T: Pt
+S: Erythrocytes
+Sc: Qn
+M: ",59467-1,"C: Erythrocyte mean corpuscular hemoglobin concentration
+P: SCnc
+T: Pt
+S: Erythrocytes
+Sc: Qn
+M: ",=,1,,,,,
+rdw,LAB: RDW/red cell distribution width (%),,"C: Red blood cell distribution width 
+P: (%)
+T: Pt
+S: Erythrocytes
+Sc: Qn
+M: ",788-0 ,"C: Erythrocyte distribution width
+P: Ratio
+T: Pt
+S: RBC
+Sc: Qn
+M: Automated count ",=,2,,,,,
+,,,,30385-9,"C: Erythrocyte distribution width
+P: Ratio
+T: Pt
+S: RBC
+Sc: Qn
+M:",=,,,,,,
+plt,LAB: PLT/thrombocytes (Gpt/l),,"C: Platelets
+P: Gpt/l
+T: Pt
+S: Blood
+Sc: Qn
+M: ",777-3,"C: Platelets
+P: NCnc
+T: Pt
+S: Blood
+Sc: Qn
+M: Automated count",=,2,,,,,
+,,,,26515-7,"C: Platelets
+P: NCnc
+T: Pt
+S: Blood
+Sc: Qn
+M: ",=,,,,,,
+mpv,LAB: MPV/mean platelet volume (fl),,"C: Mean platelet volume
+P: fl
+T: Pt
+S: Blood
+Sc: Qn
+M: ", 32623-1,"C: Platelet mean volume
+P: EntVol
+T: Pt
+S: Blood
+Sc: Qn
+M: Automated count",=,2,,,,,
+,,,,28542-9,"C: Platelet mean volume
+P: EntVol
+T: Pt
+S: Blood
+Sc: Qn
+M:",=,,,,,,
+ne_pct_e,LAB: neutrophils (%),,"C: Neutrophils
+P: %
+T: Pt
+S: Blood
+Sc: Qn
+M: ",770-8,"C: Neutrophils/100 leukocytes
+P: NFr
+T: Pt
+S: Blood
+Sc: Qn
+M: Automated count",=,2,,,,,
+,,,,26511-6,"C: Neutrophils/100 leukocytes
+P: NFr
+T: Pt
+S: Blood
+Sc: Qn
+M:",=,,,,,,
+ly_pct_e,LAB: lymphocytes (%),,"C: Lymphocytes
+P: %
+T: Pt
+S: Blood
+Sc: Qn
+M: ",736-9,"C: Lymphocytes/100 leukocytes
+P: NFr
+T: Pt
+S: Blood
+Sc: Qn
+M: Automated count",=,2,,,,,
+,,,,26478-8,"C: Lymphocytes/100 leukocytes
+P: NFr
+T: Pt
+S: Blood
+Sc: Qn
+M: ",=,,,,,,
+mo_pct_e,LAB: monocytes (%),,"C: Monocytes
+P: %
+T: Pt
+S: Blood
+Sc: Qn
+M: ",5905-5,"C: Monocytes/100 leukocytes
+P: NFr
+T: Pt
+S: Blood
+Sc: Qn
+M: Automated count",=,2,,,,,
+,,,,26485-3,"C: Monocytes/100 leukocytes
+P: NFr
+T: Pt
+S: Blood
+Sc: Qn
+M: ",=,,,,,,
+eo_pct_e,LAB: eosinophils (%),,"C: Eosinophils
+P: %
+T: Pt
+S: Blood
+Sc: Qn
+M: ",713-8,"C: Eosinophils/100 leukocytes
+P: NFr
+T: Pt
+S: Blood
+Sc: Qn
+M: Automated count",=,2,,,,,
+,,,,26450-7,"C: Eosinophils/100 leukocytes
+P: NFr
+T: Pt
+S: Blood
+Sc: Qn
+M:",=,,,,,,
+ba_pct_e,LAB: basophils (%),,"C: Basophils
+P: %
+T: Pt
+S: Blood
+Sc: Blood
+M: ",706-2,"C: Basophils/100 leukocytes
+P: NFr
+T: Pt
+S: Blood
+Sc: Qn
+M: Automated count",=,2,,,,,
+,,,,30180-4,"C: Basophils/100 leukocytes
+P: NFr
+T: Pt
+S: Blood
+Sc: Qn
+M: ",=,,,,,,
+ne_e,LAB: neutrophils (absolute) (Gpt/l),,"C: Neutrophils (absolute)
+P: Gpt/l
+T: Pt
+S: Blood
+Sc: Qn
+M: ",751-8,"C: Neutrophils
+P: NCnc
+T: Pt
+S: Blood
+Sc: Qn
+M: Automated count ",=,2,,,,,
+,,,,26499-4,"C: Neutrophils
+P: NCnc
+T: Pt
+S: Blood
+Sc: Qn
+M:",=,,,,,,
+ly_e,LAB: lymphocytes (absolute) (Gpt/l),,"C: Lymphocytes (absolute) 
+P: Gpt/l
+T: Pt
+S: Blood
+Sc: Qn
+M: ",731-0,"C: Lymphocytes
+P: NCnc
+T: Pt
+S: Blood
+Sc: Qn
+M: Automated count ",=,2,,,,,
+,,,,26474-7,"C: Lymphocytes
+P: NCnc
+T: Pt
+S: Blood
+Sc: Qn
+M:  ",=,,,,,,
+normo_pct,LAB: normoblasts (%),,"C: Normoblasts 
+P: %
+T: Pt
+S: Blood
+Sc: Qn
+M: ",33990-3,"C: Normoblasts/100 leukocytes
+P: NFr
+T: Pt
+S: Blood
+Scale: Qn
+M: ",=,1,,,,,
+normo,LAB: normoblasts (absolute) (Gpt/l),,"C: Normoblasts (absolute) 
+P: Gpt/l
+T: Pt
+S: Blood
+Sc: Qn
+M:",715-3,"C: Normoblasts
+P: NCnc
+T: Pt
+S: Blood
+Sc: Qn
+M:  ",=,1,,,,,
+quick,LAB: QUICK/thromboplastin time (%),coagulometry,"C: QUICK/thromboplastin time 
+P: %
+T: Pt
+S: PPP
+Sc: Qn
+M: ",5894-1,"C: Coagulation tissue factor induced actual/Normal
+P: RelTime
+T: Pt
+S: PPP
+Sc: Qn
+M:Coag ",~,1,,,,,
+inr,LAB: thromboplastin time international normalized ratio,calculated from prothrombin time (coagulomety),"C: Thromboplastin time INR
+P: 
+T: Pt
+S: PPP
+Sc: Qn
+M:",6301-6,"C: Coagulation tissue factor induced.INR
+P: RelTime 
+T: Pt
+S: PPP
+Sc: Qn
+M: Coag",=,1,,,,,
+ptt,LAB: PTT/partial thromboplastin time (s),coagulometry,"C: Partial thromboplastin time 
+P: s
+T: Pt
+S: PPP
+Sc: Qn
+M: Coag",14979-9,"C: Coagulation surface induced
+P: Time
+T: Pt
+S: PPP
+Sc: Qn
+M: Coag",~,1,,,,,
+fib_cl,LAB: fibrinogen (Clauss) (g/l),coagulometry,"C: Fibrinogen (Clauss)
+P: g/l
+T: Pt
+S: PPP
+Sc: Qn
+M: Coag",3255-7,"C: Fibrinogen
+P: MCnc
+T: Pt
+S: PPP
+Sc: Qn
+M: Coag ",=,1,,,,,
+fib_p,LAB: fibrinogen (g/l),calculated from coagulometry,"C: Fibrinogen 
+P: g/l
+T: Pt
+S: PPP
+Sc: Qn
+M: Coag.dervied",48664-7,"C: Fibrinogen 
+P: MCnc
+T: Pt
+S: PPP
+Sc: Qn
+M: Coag.dervied",=,1,,,,,
+cl_s,LAB: serum chloride (mmol/l),,"C: Chloride 
+P: mmol/l
+T: Pt
+S: Serum/Plasma
+Sc: Qn
+M: Generic", 2075-0,"C: Chloride
+P: SCnc
+T: Pt
+S: Serum/Plasma
+Sc: Qn
+M: ",=,1,,,,,
+ca_s,"LAB: serum calcium, total (mmol/l)",,"C: Calcium, total 
+P: mmol/l
+T: Pt
+S: Serum/Plasma
+Sc: Qn
+M:", 2000-8,"C: Calcium
+P: SCnc
+T: Pt
+S: Serum/Plasma
+Sc: Qn
+M: ",=,1,,,,,
+na_s,LAB: Na/sodium (mmol/l),,"C: Sodium 
+P: mmol/l
+T: Pt
+S: Serum/Plasma
+Sc: Qn
+M: ", 2951-2,"C: Sodium
+P: SCnc
+T: Pt
+S: Ser/Plas
+Sc: Qn
+M: ",=,1,,,,,
+k_s,LAB: K/potassium (mmol/l),,"C: Potassium 
+P: mmol/l
+T: Pt
+S: Serum/Plasma
+Sc: Qn
+M: ", 2823-3,"C: Potassium
+P: SCnc
+T: Pt
+S: Serum/Plasma
+Sc: Qn
+M: ",=,1,,,,,
+mg_s,LAB: magnesium (mmol/l),,"C: Magnesium 
+P: mmol/l
+T: Pt
+S: Serum/Plasma
+Sc: Qn
+M: Generic", 2601-3 ,"C: Magnesium
+P: SCnc
+T: Pt
+S: Serum/Plasma
+Sc: Qn
+M: ",=,1,,,,,
+hba1c_ifcc,HbA1c (IFCC) (mmol/mol),HPLC,"C: HbA1c
+P: mmol/mol
+T: Pt
+S: Blood
+Sc: Qn
+M: IFCC",59261-8,"C: Hemoglobin A1c/Hemoglobin.total
+P: SFr
+T: Pt
+S: Blood
+Sc: Qn
+M: IFCC ",=,1,,,,,
+gluc_s,LAB: serum glucose (mmol/l),,"C: Glucose 
+P: mmol/l
+T: Pt
+S: Serum/Plasma
+Sc: Qn
+M: ", 14749-6,"C: Glucose
+P: SCnc
+T: Pt
+S: Serum/Plasma
+Sc: Qn
+M: ",=,1,,,,,
+crea_s,LAB: serum creatinine (µmol/l),,"C: Creatinine 
+P: µmol/l
+T: Pt
+S: Serum/Plasma
+Sc: Qn
+M: Generic", 14682-9,"C: Creatinine
+P:SCnc
+T: Pt
+S: Serum/Plasma
+Sc: Qn
+M: ",=,1,,,,,
+hrs_s,LAB: serum uric acid (µmol/l),,"C: Uric acid 
+P: µmol/l
+T: Pt
+S: Serum/Plasma
+Sc: Qn
+M: Generic", 14933-6,"C: Urate
+P: SCnc
+T: Pt
+S: Ser/Plas
+S: Qn
+M: ",=,1,,,,,
+cystatin,LAB: cystatin C (mg/l),,"C: cystatin C 
+P: mg/l
+T: Pt
+S: Serum/Plasma
+Sc: Qn
+M: Generic", 33863-2,"C: Cystatin C
+P: MCnc
+T: Pt
+S: Serum/Plasma
+Sc: Qn
+M: ",=,1,,,,,
+gfr_larsson_t,LAB: GFR estimated (Larsson) (77.24*(cystatin**-1.2623)) (ml/min),calculated from cystatin,"C: GFR estimated (Larsson)
+P: ml/min
+T: Pt
+S: Serum/Plasma
+Sc: Qn
+M: (77.24*(cystatin**-1.2623)",50210-4,"C: Glomerular filtration rate/1.73 sq M.predicted
+P: ArVRat
+T: Pt
+S: Ser/Plas/Bld
+S: Qn
+M: Cystatin C-based formula ",=,2,,,,,
+,,,,69405-9,"C: Glomerular filtration rate/1.73 sq M.predicted
+P: ArVRat
+T: Pt
+S: Ser/Plas/Bld
+S: Qn
+M:  ",=,,,,,,
+ck_s,LAB: creatine kinase (total) (µkatal/l),,"C: creatine kinase (total) 
+P: µkatal/l
+T: Pt
+S: Serum/Plasma
+Sc: Qn
+M: ", 2157-6,"C: Creatine kinase
+P: CCnc
+T: Pt
+S: Ser/Plas
+Sc: Qn
+M: ",=,1,,,,,
+ldh_s,LAB: lactate dehydrogenase (µkatal/l),IFCC; lactate ? pyruvate,"C: Lactate dehydrogenase 
+P: µkatal/l
+T: Pt
+S: Serum/Plasma
+Sc: Qn
+M:  ", 14804-9,"C: Lactate dehydrogenase
+P: CCnc
+T: Pt
+S: Serum/Plasma
+Sc: Qn
+M: Reaction: lactate to pyruvate ",=,1,,,,,
+amyl_s,LAB: serum amylase (alpha-amylase) (µkatal/l),,"C: Amylase (alpha-amylase) 
+P: µkatal/l
+T: Pt
+S: Serum/Plasma
+Sc: Qn
+M:", 1798-8,"C: Amylase
+P: CCnc
+T: Pt
+S: Serum/Plasma
+Sc: Qn
+M: ",=,1,,,,,
+ggt_s,LAB: gamma-glutamyltransferase (µkatal/l),,"C: gamma-glutamyltransferase
+P: µkatal/l
+T: Pt
+S: Serum/Plasma
+Sc: Qn
+M: Generic", 2324-2,"C: Gamma glutamyl transferase
+P: CCnc
+T: Pt
+S: Serum/Plasma
+Sc: Qn
+M: ",=,1,,,,,
+lip_s,LAB: lipase (µkatal/l),,"C: Lipase 
+P: µkatal/l
+T: Pt
+S: Serum/Plasma
+Sc: Qn
+M: ", 3040-3,"C: Triacylglycerol lipase
+P: CCnc
+T: Pt
+S: Ser/Plas
+Sc: Qn
+M: ",=,1,,,,,
+tg_s,LAB: triglycerides (total) (mmol/l),,"C: Triglycerides (total) 
+P: mmol/l
+T: Pt
+S: Serum/Plasma
+Sc: Qn
+", 14927-8,"C:Triglyceride
+P: SCnc
+T: Pt
+S: Serum/Plasma
+Sc: Qn
+M: ",=,1,,,,,
+chol_s,LAB: cholesterol (total) (mmol/l),,"C: Cholesterol (total) 
+P: mmol/l
+T: Pt
+S: Serum/Plasma
+Sc: Qn
+M: ", 14647-2,"C: Cholesterol
+P: SCnc
+T: Pt
+S: Serum/Plasma
+Sc: Qn
+M: ",=,1,,,,,
+hdlch,LAB: HDL-cholesterol (mmol/l),,"C: HDL - Cholesterol 
+P: mmol/l
+T: Pt
+S: Serum/Plasma
+Sc: Qn
+M: ", 14646-4,"C: Cholesterol.in HDL
+P: SCnc
+T: Pt
+S: Serum/Plasma
+Sc: Qn
+M: ",=,1,,,,,
+crp_hs,CRP (high-sensitive) (mg/l),,"C:CRP 
+P: mg/l
+T: Pt
+S: Serum/Plasma
+Sc: Qn
+M: High-sensitive", 30522-7,"C:C reactive protein
+P: MCnc
+T: Pt
+S: Serum/Plasma
+Sc: Qn
+M: High sensitivity ",=,1,,,,,
+ust_trueb,"LAB: (urine) urine turbidity, clouding",,"C: urine turbidity, clouding
+P: 
+T: Pt
+S: Urine
+Sc: Ord
+M: ", 20627-6,"C: Turbidity
+P: PrThr
+T: Pt
+S: Urine
+Sc: Ord
+M:",=,1,,,,,
+ust_farb,LAB: (urine) urine color,,"C: Color
+P: 
+T: Pt
+S: Urine
+Sc: Nom
+M: ",50553-7,"C: Color
+P: Type
+T: Pt
+S: Urine
+Sc: Nom
+M: Auto ",=,2,,,,,
+,,,,5778-6,"C: Color
+P: Type
+T: Pt
+S: Urine
+Sc: Nom
+M: ",=,,,,,,
+crea_u,LAB: (urine) creatinine (mmol/l),,"C: Creatinine
+P: mmol/l
+T: Pt
+S: Urine
+Sc: Qn
+M: ", 14683-7,"C: Creatinine
+P: SCnc
+T: Pt
+S: Urine
+Sc: Qn
+M: ",=,1,,,,,
+hct,LAB: haematocrit,calculated from impedance measurements,"C: Haematocrit
+P: 
+T: Pt
+S: Blood
+Sc: Qn
+M: ",4544-3,"C: Hematocrit
+P: VFr
+T: Pt
+S: Blood
+Sc: Qn
+M: Automated count ",=,3,,,,,
+,,,,20570-8,"C: Hematocrit
+P: VFr
+T: Pt
+S: Blood
+Sc: Qn
+M:",=,,,,,,
+,,,,31100-1,"C: Haematocrit
+P: VFr
+T: Pt
+S: Blood
+Sc: Qn
+M: Impedance ",=,,,,,,
+hba1c,LAB: Hb A1c (%),HPLC,"C: Hb A1c
+P: %
+T: Pt
+S: Blood
+Sc: Qn
+M:", 4548-4,"C: Hemoglobin A1c/Hemoglobin.total
+P: MFr
+T: Pt
+S: Blood
+Sc: Qn
+Method: ",=,2,,,,,
+,,,,17856-6,"C: Hemoglobin A1c/Hemoglobin.total
+P: MFr
+T: Pt
+S: Blood
+Sc: Qn
+Method: HPLC",=,,,,,,
+gfrmdrd,"LAB: GFR estimated (MDRD) (ml/min/1,73qm)",calculated from creatinine,"C: GFR estimated
+P: ml/min/1,73qm
+T: Pt
+S: Serum/Plasma/Blood
+Sc: Qn
+M: MDRD", 69405-9  ,"C: Glomerular filtration rate/1.73 sq M.predicted
+P: ArVRat
+T: Pt
+S: Serum/Plasma/Blood
+Sc: Qn
+M: ",=,3,,,,,
+,,,"C: GFR estimated
+P: ml/min/1,73qm
+T: Pt
+S: Serum/Plasma/Blood
+Sc: Qn
+M: MDRD",77147-7,"C: Glomerular filtration rate/1.73 sq M.predicted
+P: ArVRat
+T: Pt
+S: Serum/Plasma/Blood
+Sc: Qn
+M: Creatinine-based formula (MDRD) ",=,,,,,,
+,,,"C: GFR estimated
+P: ml/min/1,73qm
+T: Pt
+S: Serum/Plasma/Blood
+Sc: Qn
+M: MDRD", 48642-3 ,"C: Glomerular filtration rate/1.73 sq M.predicted.non black
+P: ArVRat
+T: Pt
+S: Ser/Plas/Bld
+Sc: Qn
+M: Creatinine-based formula (MDRD) ",=,,,,,,
+gfrcapa,"GFR (CAPA) (ml/min/1,73qm)",calculated from cystatin,"C: GFR 
+P: ml/min/1,73qm
+T: Pt
+S: Serum/Plasma/Blood
+Sc: Qn
+M: CAPA",69405-9 ,"C: Glomerular filtration rate/1.73 sq M.predicted
+P: ArVRat
+T: Pt
+S: Serum/Plasma/Blood
+Sc: Qn
+M: ",=,2,,,,,
+,,,"C: GFR 
+P: ml/min/1,73qm
+T: Pt
+S: Serum/Plasma/Blood
+Sc: Qn
+M: CAPA",50210-4,"C: Glomerular filtration rate/1.73 sq M.predicted
+P: ArVRat
+T: Pt
+S: Serum/Plasma/Blood
+Sc: Qn
+M: Cystatin C-based formula ",=,,,,,,
+gfr_ckdepi,Glomerular filtration rate (CKD-EPI formula) (ml/min),calculated from creatinine,"C: Glomerular filtration rate
+P: ml/min
+T: Pt
+S: Serum/Plasma/Blood
+Sc: Qn
+M: CKD-EPI formula",69405-9,"C: Glomerular filtration rate/1.73 sq M.predicted
+P: ArVRat
+T: Pt
+S: Serum/Plasma/Blood
+Sc: Qn
+M:",=,3,,,,,
+,,,"C: Glomerular filtration rate
+P: ml/min
+T: Pt
+S: Serum/Plasma/Blood
+Sc: Qn
+M: CKD-EPI formula",88294-4,"C: Glomerular filtration rate/1.73 sq M.predicted.non black
+P: ArVRat
+T: Pt
+S: Serum/Plasma/Blood
+Sc: Qn
+M: Creatinine-based formula (CKD-EPI) ",=,,,,,,
+,,,"C: Glomerular filtration rate
+P: ml/min
+T: Pt
+S: Serum/Plasma/Blood
+Sc: Qn
+M: CKD-EPI formula",62238-1,"C: Glomerular filtration rate/1.73 sq M.predicted
+P: ArVRat
+T: Pt
+S: Serum/Plasma/Blood
+Sc: Qn
+M: Creatinine-based formula (CKD-EPI) ",=,,,,,,
+alat_s,LAB: alanine aminotransferase (ALAT/GPT) (µkatal/l),IFCC; with P-5´-P,"C: Alanine aminotransferase (ALAT/GPT)
+P: µkatal/l
+T: Pt
+S: Serum/Plasma
+Sc: Qn
+M:  ",1742-6,"C: Alanine aminotransferase
+P: CCnc
+T: Pt
+S: Serum/Plasma
+Sc: Qn
+M: ",=,2,,,,,
+,,,"C: Alanine aminotransferase (ALAT/GPT)
+P: µkatal/l
+T: Pt
+S: Serum/Plasma
+Sc: Qn
+M:  ",1743-4,"C: Alanine aminotransferase
+P: CCnc
+T: Pt
+S: Ser/Plas
+Sc: Qn
+M: With P-5'-P ",=,,,,,,
+asat_s,LAB: aspartate aminotransferase (ASAT/GOT) (µkatal/l),IFCC; with P-5´-P,"C: Aspartate aminotransferase (ASAT/GOT)
+P: µkatal/l
+T: Pt
+S: Serum/Plasma
+Sc: Qn
+M:  ",1920-8,"C: Aspartate aminotransferase
+P: CCnc
+T: Pt
+S: Serum/Plasma
+Sc: Qn
+M: ",=,2,,,,,
+,,,"C: Aspartate aminotransferase (ASAT/GOT)
+P: µkatal/l
+T: Pt
+S: Serum/Plasma
+Sc: Qn
+M:  ",30239-8,"C: Aspartate aminotransferase
+P: CCnc
+T: Pt
+S: Serum/Plasma
+Sc: Qn
+M: With P-5'-P ",=,,,,,,
+alb_s,LAB: serum albumin (g/l),bromocresol purple (BCP) adaptation,"C: Serum albumin 
+P: g/l
+T: Pt
+S: Serum/Plasma
+Sc: Qn
+M: ",1751-7 ,"C: Albumin
+P: MCnc
+T: Pt
+S: Serum/Plasma
+Sc: Qn
+M: ",=,2,,,,,
+,,,,61152-5,"C:  Albumin
+P: MCnc
+T: Pt
+S: Serum/Plasma
+Sc: Qn
+M: BCP ",=,,,,,,
+ferri,Ferritin (µg/l),chemiluminescence immunoassay,"C: Ferritin
+P: µg/l
+T: Pt
+S: Ser/Plas
+Sc: Qn
+M:",2276-4,"C: Ferritin
+P: MCnc
+T: Pt
+S: Ser/Plas
+Sc: Qn
+M:",=,2,,,,,
+,,,,20567-4,"C: Ferritin
+P: MCnc
+T: Pt
+S: Serum/Plasma
+S: Qn
+M: Immunoassay",=,,,,,,
+ldlch,LAB: LDL-cholesterol (mmol/l),homogenous (selective detergent),"C: LDL-cholesterol
+P: mmol/l
+T: Pt
+S: Serum/Plasma
+Sc: Qn
+M: ",22748-8,"C: Cholesterol.in LDL
+P: SCnc
+T: Pt
+S: Serum/Plasma
+Sc: Qn
+M: ",=,2,,,,,
+,,,,69419-0,"C: Cholesterol.in LDL
+P: SCnc
+T: Pt
+S: Serum/Plasma
+Sc: Qn
+M: Direct assay ",=,,,,,,
+tsh,LAB: TSH/thyroid-stimulating hormone (mU/l),chemiluminescence; detection limit <= 0.005 mIU/l,"C: TSH/thyroid-stimulating hormone 
+P: mU/l
+T: Pt
+S: Serum/Plasma
+Sc: Qn
+M: ",3016-3,"C: Thyrotropin
+P: ACnc
+T: Pt
+S: Ser/Plas
+Sc: Qn
+M:",=,2,,,,,
+,,,,11580-8,"C:Thyrotropin
+P: ACnc
+T: Pt
+S: Serum/Plasma
+Sc: Qn
+M: Detection limit <= 0.005 mIU/L ",=,,,,,,
+ft3,"LAB: f T3/triiodothyronine, free (pmol/l)",competitive immunoassay,"C:  f T3/triiodothyronine, free 
+P: pmol/l
+T: Pt
+S: Serum/Plasma
+Sc: Qn
+M: ",14928-6,"C: Triiodothyronine.free
+P: SCnc
+T: Pt
+S: Serum/Plasma
+Sc: Qn
+M:",=,2,,,,,
+,,,,83126-3,"C: Triiodothyronine.free
+P: SCnc
+T: Pt
+S: Serum/Plasma
+Sc: Qn
+M: Immunoassay ",=,,,,,,
+ft4,"LAB: f T4/thyroxine, free (pmol/l)",competitive immunoassay,"C:  f T4/thyroxine, free 
+P: pmol/l
+T: Pt
+S: Serum/Plasma
+Sc: Qn
+M: ",14920-3,"C: Thyroxine.free
+P: SCnc
+T: Pt
+S. Serum/Plasma
+Sc: Qn
+M: ",=,2,,,,,
+,,,,83121-4,"C: Thyroxine.free
+P: SCnc
+T: Pt
+S: Serum/Plasma
+Sc: Qn
+M: Immunoassay ",=,,,,,,
+tpo_ak,LAB: TPO-AK/ anti-thyroid peroxidase antibody (U/ml),competitive immunoassay,"C: TPO-AK/ anti-thyroid peroxidase antibody 
+P: U/ml
+T: Pt
+S: Serum/Plasma
+Sc: Qn
+M: ",8099-4,"C: Thyroperoxidase Ab
+P: ACnc
+T: Pt
+S: Serum/Plasma
+Sc: Qn
+",=,2,,,,,
+,,,,56477-3,"C: Thyroperoxidase Ab
+P: ACnc
+T: Pt
+S: Serum/Plasma
+Sc: Qn
+M:  Immunoassy ",=,,,,,,
+ph_u,LAB: (urine) pH,urine test strip,"C: pH
+P: 
+T: Pt
+S: Urine
+Sc: Qn
+M:",2756-5,"C: pH
+P: LsCnc
+T: Pt
+S: Urine
+Sc: Qn
+M:",=,3,,,,,
+,,,,5803-2,"C: pH
+P: LsCnc
+T: Pt
+S: Urine
+Sc: Qn
+M: Test Strip",=,,,,,,
+,,,,50560-2,"C: pH
+P: LsCnc
+T: Pt
+S: Urine
+Sc: Qn
+M: Test strip.automated",=,,,,,,
+leuco_u,LAB: (urine) leukocytes (Zellen/µl),urine test strip,"C: Leukocytes
+P: Zellen/µl
+T: Pt
+S: Urine
+Sc: Qn
+M:",30405-5,"C: Leukocytes
+P: NCnc
+T: Pt
+S: Urine
+Sc: Qn
+M:",=,3,,,,,
+,,,,20408-1,"C: Leukocytes
+P: NCnc
+T: Pt
+S: Urine
+S: Qn
+M: Test strip ",=,,,,,,
+,,,,58805-3,"C: Leukocytes
+P: NCnc
+T: Pt
+S: Urine
+Sc: Qn
+M: Test strip.automated ",=,,,,,,
+nitri_u,LAB: (urine) nitrite (pos/neg),urine test strip,"C: Nitrite
+P: pos/neg
+T: Pt
+S: Urine
+Sc: Ord
+M:",32710-6,"C: Nitrite
+P: PrThr
+T: Pt
+S: Urine
+Sc: Ord
+M:",=,3,,,,,
+,,,,5802-4,"C: Nitrite
+P: PrThr
+T: Pt
+S: Urine
+Sc: Ord
+M: Test strip ",=,,,,,,
+,,,,50558-6,"C: Nitrite
+P. PrThr
+T: Pt
+S:  Urine
+Sc: Ord
+M: Test strip.automated ",=,,,,,,
+prot_u,LAB: (urine) protein (g/l),urine test strip,"C: Protein
+P: g/l
+T:  Pt
+S: Urine
+Sc: Qn
+M:",2888-6,"C: Protein
+P: MCnc
+T:  Pt
+S: Urine
+Sc: Qn
+M:",=,3,,,,,
+,,,,5804-0,"C. Protein
+P: MCnc
+T: Pt
+S: Urine
+Sc: Qn
+M: Test strip ",=,,,,,,
+,,,,50561-0,"C: Protein
+P: MCnc
+T: Pt
+S: Urine
+Sc: Qn
+M: Test strip.automated ",=,,,,,,
+gluc_u,LAB: (urine) glucose (mmol/l),urine test strip,"C: Glucose
+P: mmol/l
+T: Pt
+S: Urine
+Sc: Qn
+M:",15076-3 ,"C: Glucose
+P: SCnc
+T: Pt
+S: Urine
+Sc: Qn
+M:",=,3,,,,,
+,,,,22705-8,"C: Glucose
+P: SCnc
+T: Pt
+S:Urine
+Sc: Qn
+M: Test strip ",=,,,,,,
+,,,,59156-0,"C: Glucose
+P: SCnc
+T: Pt
+S: Urine
+Sc: Qn
+M: Test strip.automated ",=,,,,,,
+ket_u,LAB: (urine) ketone (mmol/l),urine test strip,"C: Ketones
+P: mmol/l
+T: Pt
+S: Urine
+Sc: Qn
+M: ",22702-5,"C: Ketones
+P: SCnc
+T: Pt
+S: Urine
+Sc: Qn
+M: Test strip ",=,2,,,,,
+,,,,59158-6,"C: Ketones
+P: SCnc
+T: Pt
+S: Urine
+Sc: Qn
+M: Test strip.automated ",=,,,,,,
+ubg_u,LAB: (urine) urobilinogen (µmol/l),urine test strip,"C: Urobilinogen
+P: µmol/l
+T: Pt
+S: Urine
+Sc: Qn
+M:",34927-4,"C: Urobilinogen
+P: SCnc
+T: Pt
+S: Urine
+Sc: Qn
+M:",=,3,,,,,
+,,,,34928-2,"C: Urobilinogen
+P: SCnc
+T: Pt
+S: Urine
+Sc: Qn
+M: Test strip ",=,,,,,,
+,,,,60025-4,"C: Urobilinogen
+P: SCnc
+T: Pt
+S: Urine
+Sc: Qn
+M: Test strip.automated ",=,,,,,,
+bili_u,LAB: (urine) bilirubin (µmol/l),urine test strip,"C: Bilirubin
+P: µmol/l
+T: Pt
+S: Urine
+Sc: Qn
+M:",70199-5,"C: Bilirubin
+P: SCnc
+T: Pt
+S: Urine
+Sc: Qn
+M:",=,3,,,,,
+,,,,41016-7,"C: Bilirubin
+P: SCnc
+T: Pt
+S: Urine
+Sc: Qn
+M: Test strip ",=,,,,,,
+,,,,68367-2,"C: Bilirubin
+P: SCnc
+T: Pt
+S: Urine
+Sc: Qn
+M: Test strip.automated ",=,,,,,,
+ery_u,LAB: (urine) erythrocytes (/µl),urine test strip,"C: Erythrocytes
+P: /µl
+T: Pt
+S: Urine
+Sc: Qn
+M: ",30391-7,"C: Erythrocytes
+P: NCnc
+T: Pt
+S: Urine
+Sc: Qn
+M:",=,3,,,,,
+,,,,20409-9,"C: Erythrocytes
+P: NCnc
+T:  Pt
+S: Urine
+Sc. Qn
+M: Test strip ",=,,,,,,
+,,,,57747-8,"C: Erythrocytes
+P: NCnc
+T: Pt
+S: Urine
+Sc: Qn
+M: Test strip.automated ",=,,,,,,
+hb_u,LAB: (urine) haemoglobin (mg/dl),urine test strip,"C: Hemoglobin
+P: mg/dl
+T: Pt
+S: Urine
+Sc. Qn
+M: ",726-0,"C: Hemoglobin
+P: MCnc
+T: Pt
+S: Urine
+Sc: Qn
+",=,3,,,,,
+,,,,49137-3,"C: Hemoglobin
+P: MCnc
+T: Pt
+S: Urine
+Sc: Qn
+M: Test strip",=,,,,,,
+,,,,50559-4,"C: Hemoglobin
+P: MCnc
+T: Pt
+S: Urine
+Sc: Qn
+M: Test strip.automated ",=,,,,,,
+alb_u,LAB: (urine) albumin (mg/l),,"C: Albumin
+P: mg/l
+T: Pt
+S: Urine
+Sc: Qn
+M:  ",1754-1,"C: Albumin
+P: MCnc
+T: Pt
+S: Urine
+Sc: Qn
+M: ",=,1,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
