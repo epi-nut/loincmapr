@@ -1,73 +1,73 @@
-var_shortn,var_longn_eng
-hgb,LAB: haemoglobin (mmol/l)
-mch,LAB: MCH/mean corpuscular haemoglobin (fmol)
-mchc,LAB: MCHC/mean corpuscular haemoglobin concentration (mmol/l)
-normo_pct,LAB: normoblasts (%)
-normo,LAB: normoblasts (absolute) (Gpt/l)
-quick,LAB: QUICK/thromboplastin time (%)
-inr,LAB: thromboplastin time international normalized ratio
-ptt,LAB: PTT/partial thromboplastin time (s)
-fib_cl,LAB: fibrinogen (Clauss) (g/l)
-fib_p,LAB: fibrinogen (g/l)
-cl_s,LAB: serum chloride (mmol/l)
-ca_s,"LAB: serum calcium, total (mmol/l)"
-na_s,LAB: Na/sodium (mmol/l)
-k_s,LAB: K/potassium (mmol/l)
-mg_s,LAB: magnesium (mmol/l)
-hba1c_ifcc,HbA1c (IFCC) (mmol/mol)
-gluc_s,LAB: serum glucose (mmol/l)
-crea_s,LAB: serum creatinine (µmol/l)
-hrs_s,LAB: serum uric acid (µmol/l)
-cystatin,LAB: cystatin C (mg/l)
-ck_s,LAB: creatine kinase (total) (µkatal/l)
-ldh_s,LAB: lactate dehydrogenase (µkatal/l)
-amyl_s,LAB: serum amylase (alpha-amylase) (µkatal/l)
-ggt_s,LAB: gamma-glutamyl transferase (µkatal/l)
-lip_s,LAB: lipase (µkatal/l)
-tg_s,LAB: triglycerides (total) (mmol/l)
-chol_s,LAB: cholesterol (total) (mmol/l)
-hdlch,LAB: HDL-cholesterol (mmol/l)
-crp_hs,LAB: CRP (high-sensitive) (mg/l)
-ust_trueb,"LAB: (urine) urine turbidity, clouding"
-crea_u,LAB: (urine) creatinine (mmol/l)
-alb_u,LAB: (urine) albumin (mg/l)
-wbc,LAB: WBC/leukocytes (Gpt/l)
-rbc,LAB: RBC/erythrocytes (Tpt/l)
-mcv,LAB: mcv/mean corpuscular volume (fl)
-rdw,LAB: RDW/red cell distribution width (%)
-plt,LAB: PLT/thrombocytes (Gpt/l)
-mpv,LAB: MPV/mean platelet volume (fl)
-ne_pct_e,LAB: neutrophils (%)
-ly_pct_e,LAB: lymphocytes (%)
-mo_pct_e,LAB: monocytes (%)
-eo_pct_e,LAB: eosinophils (%)
-ba_pct_e,LAB: basophils (%)
-ne_e,LAB: neutrophils (absolute) (Gpt/l)
-ly_e,LAB: lymphocytes (absolute) (Gpt/l)
-gfr_larsson_t,LAB: GFR estimated (Larsson) (77.24*(cystatin**-1.2623)) (ml/min)
-ust_farb,LAB: (urine) urine color
-hct,LAB: haematocrit
-hba1c,LAB: Hb A1c (%)
-gfrmdrd,"LAB: GFR estimated (MDRD) (ml/min/1,73qm)"
-gfrcapa,"GFR (CAPA) (ml/min/1,73qm) calculated from cystatin"
-gfr_ckdepi,Glomerular filtration rate (CKD-EPI formula) (ml/min) calculated from creatinine
-alat_s,LAB: alanine aminotransferase (ALAT/GPT) (µkatal/l)
-asat_s,LAB: aspartate aminotransferase (ASAT/GOT) (µkatal/l)
-alb_s,LAB: serum albumin (g/l)
-ferri,Ferritin (µg/l)
-ldlch,LAB: LDL-cholesterol (mmol/l)
-tsh,LAB: TSH/thyroid-stimulating hormone (mU/l)
-ft3,"LAB: fT3/triiodothyronine, free (pmol/l)"
-ft4,"LAB: fT4/thyroxine, free (pmol/l)"
-tpo_ak,LAB: TPO-AK/anti-thyroid peroxidase antibody (U/ml)
-ph_u,LAB: (urine) pH
-leuco_u,LAB: (urine) leukocytes (Zellen/µl)
-nitri_u,LAB: (urine) nitrite (pos/neg)
-prot_u,LAB: (urine) protein (g/l)
-gluc_u,LAB: (urine) glucose (mmol/l)
-ket_u,LAB: (urine) ketone (mmol/l)
-ubg_u,LAB: (urine) urobilinogen (µmol/l)
-bili_u,LAB: (urine) bilirubin (µmol/l)
-ery_u,LAB: (urine) erythrocytes (/µl)
-hb_u,LAB: (urine) haemoglobin (mg/dl)
-sg_u,LAB: (urine) density (kg/l)
+var_shortn,var_longn_eng,specimen_group,query
+hgb,LAB: haemoglobin (mmol/l),blood,haemoglobin
+mch,LAB: MCH/mean corpuscular haemoglobin (fmol),erythrocytes,mch/mean corpuscular haemoglobin
+mchc,LAB: MCHC/mean corpuscular haemoglobin concentration (mmol/l),erythrocytes,mchc/mean corpuscular haemoglobin concentration
+normo_pct,LAB: normoblasts (%),blood,normoblasts
+normo,LAB: normoblasts (absolute) (Gpt/l),blood,normoblasts
+quick,LAB: QUICK/thromboplastin time (%),ppp,quick/thromboplastin time
+inr,LAB: thromboplastin time international normalized ratio,ppp,thromboplastin time international normalized ratio
+ptt,LAB: PTT/partial thromboplastin time (s),ppp,ptt/partial thromboplastin time
+fib_cl,LAB: fibrinogen (Clauss) (g/l),ppp,fibrinogen
+fib_p,LAB: fibrinogen (g/l),ppp,fibrinogen
+cl_s,LAB: serum chloride (mmol/l),serum_plasma,chloride
+ca_s,"LAB: serum calcium, total (mmol/l)",serum_plasma,"calcium, total"
+na_s,LAB: Na/sodium (mmol/l),serum_plasma,na/sodium
+k_s,LAB: K/potassium (mmol/l),serum_plasma,k/potassium
+mg_s,LAB: magnesium (mmol/l),serum_plasma,magnesium
+hba1c_ifcc,HbA1c (IFCC) (mmol/mol),blood,hba1c
+gluc_s,LAB: serum glucose (mmol/l),serum_plasma,glucose
+crea_s,LAB: serum creatinine (µmol/l),serum_plasma,creatinine
+hrs_s,LAB: serum uric acid (µmol/l),serum_plasma,uric acid
+cystatin,LAB: cystatin C (mg/l),serum_plasma,cystatin c
+ck_s,LAB: creatine kinase (total) (µkatal/l),serum_plasma,creatine kinase
+ldh_s,LAB: lactate dehydrogenase (µkatal/l),serum_plasma,lactate dehydrogenase
+amyl_s,LAB: serum amylase (alpha-amylase) (µkatal/l),serum_plasma,amylase
+ggt_s,LAB: gamma-glutamyl transferase (µkatal/l),serum_plasma,gamma-glutamyl transferase
+lip_s,LAB: lipase (µkatal/l),serum_plasma,lipase
+tg_s,LAB: triglycerides (total) (mmol/l),serum_plasma,triglycerides
+chol_s,LAB: cholesterol (total) (mmol/l),serum_plasma,cholesterol
+hdlch,LAB: HDL-cholesterol (mmol/l),serum_plasma,hdl-cholesterol
+crp_hs,LAB: CRP (high-sensitive) (mg/l),serum_plasma,crp
+ust_trueb,"LAB: (urine) urine turbidity, clouding",urine,"turbidity, clouding"
+crea_u,LAB: (urine) creatinine (mmol/l),urine,creatinine
+alb_u,LAB: (urine) albumin (mg/l),urine,albumin
+wbc,LAB: WBC/leukocytes (Gpt/l),blood,wbc/leukocytes
+rbc,LAB: RBC/erythrocytes (Tpt/l),blood,rbc/erythrocytes
+mcv,LAB: mcv/mean corpuscular volume (fl),erythrocytes,mcv/mean corpuscular volume
+rdw,LAB: RDW/red cell distribution width (%),erythrocytes,rdw/red cell distribution width
+plt,LAB: PLT/thrombocytes (Gpt/l),blood,plt/thrombocytes
+mpv,LAB: MPV/mean platelet volume (fl),blood,mpv/mean platelet volume
+ne_pct_e,LAB: neutrophils (%),blood,neutrophils
+ly_pct_e,LAB: lymphocytes (%),blood,lymphocytes
+mo_pct_e,LAB: monocytes (%),blood,monocytes
+eo_pct_e,LAB: eosinophils (%),blood,eosinophils
+ba_pct_e,LAB: basophils (%),blood,basophils
+ne_e,LAB: neutrophils (absolute) (Gpt/l),blood,neutrophils
+ly_e,LAB: lymphocytes (absolute) (Gpt/l),blood,lymphocytes
+gfr_larsson_t,LAB: GFR estimated (Larsson) (77.24*(cystatin**-1.2623)) (ml/min),serum_plasma,gfr estimated )
+ust_farb,LAB: (urine) urine color,urine,color
+hct,LAB: haematocrit,blood,haematocrit
+hba1c,LAB: Hb A1c (%),blood,hb a1c
+gfrmdrd,"LAB: GFR estimated (MDRD) (ml/min/1,73qm)",serum_plasma_blood,gfr estimated
+gfrcapa,"GFR (CAPA) (ml/min/1,73qm) calculated from cystatin",serum_plasma_blood,gfr calculated from cystatin
+gfr_ckdepi,Glomerular filtration rate (CKD-EPI formula) (ml/min) calculated from creatinine,serum_plasma_blood,glomerular filtration rate calculated from creatinine
+alat_s,LAB: alanine aminotransferase (ALAT/GPT) (µkatal/l),serum_plasma,alanine aminotransferase
+asat_s,LAB: aspartate aminotransferase (ASAT/GOT) (µkatal/l),serum_plasma,aspartate aminotransferase
+alb_s,LAB: serum albumin (g/l),serum_plasma,albumin
+ferri,Ferritin (µg/l),serum_plasma,ferritin
+ldlch,LAB: LDL-cholesterol (mmol/l),serum_plasma,ldl-cholesterol
+tsh,LAB: TSH/thyroid-stimulating hormone (mU/l),serum_plasma,tsh/thyroid-stimulating hormone
+ft3,"LAB: fT3/triiodothyronine, free (pmol/l)",serum_plasma,"ft3/triiodothyronine, free"
+ft4,"LAB: fT4/thyroxine, free (pmol/l)",serum_plasma,"ft4/thyroxine, free"
+tpo_ak,LAB: TPO-AK/anti-thyroid peroxidase antibody (U/ml),serum_plasma,tpo-ak/anti-thyroid peroxidase antibody
+ph_u,LAB: (urine) pH,urine,ph
+leuco_u,LAB: (urine) leukocytes (Zellen/µl),urine,leukocytes
+nitri_u,LAB: (urine) nitrite (pos/neg),urine,nitrite
+prot_u,LAB: (urine) protein (g/l),urine,protein
+gluc_u,LAB: (urine) glucose (mmol/l),urine,glucose
+ket_u,LAB: (urine) ketone (mmol/l),urine,ketone
+ubg_u,LAB: (urine) urobilinogen (µmol/l),urine,urobilinogen
+bili_u,LAB: (urine) bilirubin (µmol/l),urine,bilirubin
+ery_u,LAB: (urine) erythrocytes (/µl),urine,erythrocytes
+hb_u,LAB: (urine) haemoglobin (mg/dl),urine,haemoglobin
+sg_u,LAB: (urine) density (kg/l),urine,density

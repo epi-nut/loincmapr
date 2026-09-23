@@ -1,0 +1,721 @@
+var_shortn,arm,rank,component
+hgb,text,1,Hemoglobin
+hgb,text,2,Hemoglobin A
+hgb,text,3,Hemoglobin H
+hgb,text,4,Hemoglobin F
+hgb,text,5,Hemoglobin C
+hgb,llm,1,Hemoglobin
+hgb,llm,2,Hemoglobin A
+hgb,llm,3,Hemoglobin H
+hgb,llm,4,Hemoglobin F
+hgb,llm,5,Hemoglobin C
+mch,text,1,Erythrocyte mean corpuscular hemoglobin
+mch,text,2,Rumex acetosella basophil bound Ab
+mch,text,3,Chrysanthemum cinerariifolium basophil bound Ab
+mch,text,4,Origanum vulgare basophil bound Ab
+mch,text,5,Hordeum vulgare basophil bound Ab
+mch,llm,1,Erythrocyte mean corpuscular hemoglobin
+mch,llm,2,Aedes communis basophil bound Ab
+mch,llm,3,Apium graveolens basophil bound Ab
+mch,llm,4,Origanum vulgare basophil bound Ab
+mch,llm,5,Mucor racemosus basophil bound Ab
+mchc,text,1,Reticulocyte corpuscular hemoglobin concentration mean
+mchc,text,2,Erythrocyte mean corpuscular hemoglobin concentration
+mchc,text,3,Hemoglobin M/Hemoglobin.total
+mchc,text,4,Erythrocyte mean corpuscular hemoglobin
+mchc,text,5,Gamma interferon.negative control spot count
+mchc,llm,1,Erythrocyte mean corpuscular hemoglobin concentration
+mchc,llm,2,Reticulocyte corpuscular hemoglobin concentration mean
+mchc,llm,3,Hemoglobin & Hematocrit panel
+mchc,llm,4,Maternal cell contamination
+mchc,llm,5,Erythrocyte mean corpuscular hemoglobin
+normo_pct,text,1,Normoblasts
+normo_pct,text,2,Monoblasts
+normo_pct,text,3,Pronormoblasts
+normo_pct,text,4,Normoblasts/100 blasts
+normo_pct,text,5,Normoblasts/100 leukocytes
+normo_pct,llm,1,Microorganism preliminary growth detection panel
+normo_pct,llm,2,Middle East respiratory syndrome coronavirus RNA
+normo_pct,llm,3,Blood removed from patient
+normo_pct,llm,4,SARS coronavirus 2 specific TCRB gene rearrangements
+normo_pct,llm,5,Rate of fibrin formation.glass bead induced
+normo,text,1,Normoblasts
+normo,text,2,Monoblasts
+normo,text,3,Pronormoblasts
+normo,text,4,Normoblasts/100 blasts
+normo,text,5,Normoblasts/100 leukocytes
+normo,llm,1,Circulating tumor cells.colon
+normo,llm,2,Solanum tuberosum basophil bound Ab
+normo,llm,3,Coagulation viscoelastic tracing
+normo,llm,4,Agrostis stolonifera basophil bound Ab
+normo,llm,5,Cocos nucifera basophil bound Ab
+quick,text,1,Antithrombin
+quick,text,2,Prothrombin.activity actual/Normal
+quick,text,3,Thrombopoietin
+quick,text,4,Clot formation lag time
+quick,text,5,Gastric inhibitory polypeptide
+quick,llm,1,Prothrombin Ag
+quick,llm,2,Prothrombin Ag actual/Normal
+quick,llm,3,Thrombopoietin
+quick,llm,4,Protein C
+quick,llm,5,Protein S
+inr,text,1,Thrombin generation test panel
+inr,text,2,Endogenous thrombin potential^after addition of Factor VIII Ab
+inr,text,3,Thrombopoietin
+inr,text,4,von Willebrand factor.ristocetin cofactor activity actual/Normal
+inr,text,5,Coagulation tissue factor induced.INR^post heparin neutralization
+inr,llm,1,Thrombin generation test panel
+inr,llm,2,Endogenous thrombin potential^after addition of Factor VIII Ab
+inr,llm,3,Thrombopoietin
+inr,llm,4,von Willebrand factor.ristocetin cofactor activity actual/Normal
+inr,llm,5,Coagulation tissue factor induced.INR^post heparin neutralization
+ptt,text,1,Plasmin-plasmin inhibitor complex
+ptt,text,2,Antithrombin
+ptt,text,3,Thrombin generation test panel
+ptt,text,4,Platelet aggregation.ristocetin inhibitor
+ptt,text,5,Plasminogen activator tissue type
+ptt,llm,1,Alpha aminoisobutyrate
+ptt,llm,2,Argatroban
+ptt,llm,3,Antithrombin
+ptt,llm,4,Thrombin generation test panel
+ptt,llm,5,Plasmin inhibitor actual/Normal
+fib_cl,text,1,Fibrinogen
+fib_cl,text,2,Fibrinogen Ag
+fib_cl,text,3,Fibrinogen fragments
+fib_cl,text,4,Fibrin fragments
+fib_cl,text,5,Fibrinogen fragments Ag
+fib_cl,llm,1,Fibrinogen Ag
+fib_cl,llm,2,Fibrinogen
+fib_cl,llm,3,Fibrinogen fragments Ag
+fib_cl,llm,4,Fibrinogen fragments
+fib_cl,llm,5,Fibrin fragments Ag
+fib_p,text,1,Fibrinogen
+fib_p,text,2,Fibrinogen Ag
+fib_p,text,3,Fibrinogen fragments
+fib_p,text,4,Fibrin fragments
+fib_p,text,5,Fibrinogen fragments Ag
+fib_p,llm,1,Fibrinogen
+fib_p,llm,2,Fibrinogen Ag
+fib_p,llm,3,Fibrinogen fragments
+fib_p,llm,4,Fibrin fragments
+fib_p,llm,5,Fibrinogen fragments Ag
+cl_s,text,1,Chloride
+cl_s,text,2,Chlordane
+cl_s,text,3,Cephaloridine
+cl_s,text,4,Chlorthalidone
+cl_s,text,5,Chlorothiazide
+cl_s,llm,1,Chloride
+cl_s,llm,2,Chlordane
+cl_s,llm,3,Cephaloridine
+cl_s,llm,4,Chlorthalidone
+cl_s,llm,5,Chlorothiazide
+ca_s,text,1,Calcium
+ca_s,text,2,Calcitriol
+ca_s,text,3,Calcium^post dialysis
+ca_s,text,4,Calcidiol
+ca_s,text,5,Calcium/Osmolality
+ca_s,llm,1,Calcium
+ca_s,llm,2,Calcium/Sodium
+ca_s,llm,3,Calcium.ionized
+ca_s,llm,4,Calcium/Albumin
+ca_s,llm,5,Calcium/Protein
+na_s,text,1,Sodium
+na_s,text,2,Indium
+na_s,text,3,Cadmium
+na_s,text,4,Vanadium
+na_s,text,5,Magnesium
+na_s,llm,1,Sodium
+na_s,llm,2,Strontium
+na_s,llm,3,Sodium/Potassium
+na_s,llm,4,Cesium
+na_s,llm,5,Indium
+k_s,text,1,Potassium
+k_s,text,2,Potassium^2nd specimen
+k_s,text,3,Potassium^3rd specimen
+k_s,text,4,Potassium^pre dialysis
+k_s,text,5,Potassium^post dialysis
+k_s,llm,1,Potassium
+k_s,llm,2,Potassium^2nd specimen
+k_s,llm,3,Potassium^3rd specimen
+k_s,llm,4,Potassium^pre dialysis
+k_s,llm,5,Potassium^post dialysis
+mg_s,text,1,Magnesium
+mg_s,text,2,Magnesium.ionized
+mg_s,text,3,Germanium
+mg_s,text,4,Magnesium^post dialysis
+mg_s,text,5,Cesium
+mg_s,llm,1,Magnesium
+mg_s,llm,2,Magnesium.ionized
+mg_s,llm,3,Germanium
+mg_s,llm,4,Magnesium^post dialysis
+mg_s,llm,5,Cesium
+hba1c_ifcc,text,1,HBA1 gene.c.223G>C
+hba1c_ifcc,text,2,HPA-1
+hba1c_ifcc,text,3,Hemoglobin A1c/Hemoglobin.total
+hba1c_ifcc,text,4,HPA-1a
+hba1c_ifcc,text,5,HPA-15
+hba1c_ifcc,llm,1,Hemoglobin A1c
+hba1c_ifcc,llm,2,Hemoglobin A
+hba1c_ifcc,llm,3,Hemoglobin C
+hba1c_ifcc,llm,4,Hemoglobin A2
+hba1c_ifcc,llm,5,Hemoglobin
+gluc_s,text,1,Glucose
+gluc_s,text,2,Glucosamine
+gluc_s,text,3,Galactose
+gluc_s,text,4,Glucose/Insulin
+gluc_s,text,5,Glucose^baseline
+gluc_s,llm,1,Glucose
+gluc_s,llm,2,Glucosamine
+gluc_s,llm,3,Galactose
+gluc_s,llm,4,Glucose/Insulin
+gluc_s,llm,5,Glucose^baseline
+crea_s,text,1,Creatinine
+crea_s,text,2,Creatine
+crea_s,text,3,Carnitine
+crea_s,text,4,Cotinine
+crea_s,text,5,Creatinine^baseline
+crea_s,llm,1,Creatinine
+crea_s,llm,2,Creatine
+crea_s,llm,3,Carnitine
+crea_s,llm,4,Cotinine
+crea_s,llm,5,Creatinine^baseline
+hrs_s,text,1,Sorbic acid Ab.IgE
+hrs_s,text,2,Organic acids
+hrs_s,text,3,Urtica dioica Ab.IgE
+hrs_s,text,4,Urtica dioica Ab.IgG
+hrs_s,text,5,Urtica dioica Ab.IgG4
+hrs_s,llm,1,Sorbic acid Ab.IgE
+hrs_s,llm,2,Organic acids
+hrs_s,llm,3,Urtica dioica Ab.IgE
+hrs_s,llm,4,Urtica dioica Ab.IgG
+hrs_s,llm,5,Urtica dioica Ab.IgG4
+cystatin,text,1,Cystatin C
+cystatin,text,2,Cystine
+cystatin,text,3,Cystathionine
+cystatin,text,4,Cytokeratin 19
+cystatin,text,5,Cysteine
+cystatin,llm,1,Cystatin C
+cystatin,llm,2,Cystathionine
+cystatin,llm,3,Cystine
+cystatin,llm,4,Nystatin Ab.IgE
+cystatin,llm,5,Tin
+ck_s,text,1,Creatine kinase
+ck_s,text,2,Creatine Kinase.MB
+ck_s,text,3,Creatine kinase.MB
+ck_s,text,4,Creatine kinase.BB
+ck_s,text,5,Creatine kinase.MM
+ck_s,llm,1,Creatine kinase
+ck_s,llm,2,Creatine Kinase.MB
+ck_s,llm,3,Creatine kinase.MB
+ck_s,llm,4,Creatine kinase.BB
+ck_s,llm,5,Creatine kinase.MM
+ldh_s,text,1,Lactate dehydrogenase
+ldh_s,text,2,Lactate dehydrogenase 2
+ldh_s,text,3,Lactate dehydrogenase 1
+ldh_s,text,4,Lactate dehydrogenase 3
+ldh_s,text,5,Lactate dehydrogenase 4
+ldh_s,llm,1,Lactate dehydrogenase
+ldh_s,llm,2,Lactate dehydrogenase 2
+ldh_s,llm,3,Lactate dehydrogenase 1
+ldh_s,llm,4,Lactate dehydrogenase 3
+ldh_s,llm,5,Lactate dehydrogenase 4
+amyl_s,text,1,Amylase
+amyl_s,text,2,Amylase.P1
+amyl_s,text,3,Amylase.P2
+amyl_s,text,4,Amylase.P3
+amyl_s,text,5,Amylase.S1
+amyl_s,llm,1,Amylase
+amyl_s,llm,2,Amylase.P1
+amyl_s,llm,3,Amylase.P2
+amyl_s,llm,4,Amylase.P3
+amyl_s,llm,5,Amylase.S1
+ggt_s,text,1,Gamma glutamyl transferase
+ggt_s,text,2,Gamma glutamyl transferase.macromolecular
+ggt_s,text,3,Gamma glutamyl transferase/Aspartate aminotransferase
+ggt_s,text,4,Gamma aminobutyrate
+ggt_s,text,5,Alanine aminotransferase
+ggt_s,llm,1,Gamma glutamyl transferase
+ggt_s,llm,2,Gamma glutamyl transferase.macromolecular
+ggt_s,llm,3,Gamma glutamyl transferase/Aspartate aminotransferase
+ggt_s,llm,4,Gamma aminobutyrate
+ggt_s,llm,5,Alanine aminotransferase
+lip_s,text,1,Lipolase Ab.IgE
+lip_s,text,2,Lipids
+lip_s,text,3,Lipid panel
+lip_s,text,4,Lipase.macromolecular
+lip_s,text,5,Lindane
+lip_s,llm,1,Lipolase Ab.IgE
+lip_s,llm,2,Lipids
+lip_s,llm,3,Lipid panel
+lip_s,llm,4,Lipase.macromolecular
+lip_s,llm,5,Lindane
+tg_s,text,1,Triglyceride
+tg_s,text,2,Triglyceride^post CFst
+tg_s,text,3,Triglyceride.in VLDL
+tg_s,text,4,Triglyceride+ester.in HDL
+tg_s,text,5,Triglyceride+ester.in IDL
+tg_s,llm,1,Triglyceride
+tg_s,llm,2,Triglyceride^post CFst
+tg_s,llm,3,Triglyceride.in VLDL
+tg_s,llm,4,Triglyceride+ester.in HDL
+tg_s,llm,5,Triglyceride+ester.in IDL
+chol_s,text,1,Cholesterol
+chol_s,text,2,Cholestanol
+chol_s,text,3,Cholesterol.in HDL
+chol_s,text,4,Cholesterol.in LDL
+chol_s,text,5,Cholesterol esters
+chol_s,llm,1,Ornithobacterium rhinotracheale Ab/Positive control
+chol_s,llm,2,Retinol & Alpha tocopherol panel
+chol_s,llm,3,Fibroblast growth factor 23.C-terminal
+chol_s,llm,4,Lecithin cholesterol acyltransferase actual/normal
+chol_s,llm,5,Cholesterol ester transfer protein actual/normal
+hdlch,text,1,7-Dehydrocholesterol
+hdlch,text,2,8-Dehydrocholesterol
+hdlch,text,3,Cholesterol
+hdlch,text,4,8(9)-Cholestenol
+hdlch,text,5,7-Ketocholesterol
+hdlch,llm,1,Cholesterol.in HDL/Cholesterol.total
+hdlch,llm,2,Apolipoprotein A-I/Cholesterol.in HDL
+hdlch,llm,3,Dichlorodiphenyltrichloroethane
+hdlch,llm,4,Triiodothyronine^4th specimen post XXX challenge
+hdlch,llm,5,Triiodothyronine^5th specimen post XXX challenge
+crp_hs,text,1,Cariprazine
+crp_hs,text,2,Carp Ab.IgE
+crp_hs,text,3,Cryoproteins
+crp_hs,text,4,Carisoprodol
+crp_hs,text,5,Chlorpyrifos
+crp_hs,llm,1,C reactive protein
+crp_hs,llm,2,Beta-trace protein
+crp_hs,llm,3,Creatinine^pre contrast
+crp_hs,llm,4,Creatine
+crp_hs,llm,5,Creatine kinase
+ust_trueb,text,1,Turbidity
+ust_trueb,text,2,Rubidium
+ust_trueb,text,3,Amitriptyline
+ust_trueb,text,4,Rubidium/Creatinine
+ust_trueb,text,5,Urobilinogen
+ust_trueb,llm,1,cloNIDine
+ust_trueb,llm,2,Iodine
+ust_trueb,llm,3,cloZAPine
+ust_trueb,llm,4,Cocaine
+ust_trueb,llm,5,Codeine
+crea_u,text,1,Creatinine
+crea_u,text,2,Creatine
+crea_u,text,3,Carnitine
+crea_u,text,4,Gold/Creatinine
+crea_u,text,5,Creatinine panel
+crea_u,llm,1,Creatinine
+crea_u,llm,2,Creatine
+crea_u,llm,3,Carnitine
+crea_u,llm,4,Gold/Creatinine
+crea_u,llm,5,Creatinine panel
+alb_u,text,1,Albumin
+alb_u,text,2,Prealbumin
+alb_u,text,3,Aluminum
+alb_u,text,4,Albumin^supine
+alb_u,text,5,Albumin ug/min
+alb_u,llm,1,Albumin
+alb_u,llm,2,Prealbumin
+alb_u,llm,3,Aluminum
+alb_u,llm,4,Albumin^supine
+alb_u,llm,5,Albumin ug/min
+wbc,text,1,Leukocytes
+wbc,text,2,Reticulocytes
+wbc,text,3,Blasts/leukocytes
+wbc,text,4,Myelocytes
+wbc,text,5,Reticulocytes.mid
+wbc,llm,1,Complete blood count panel
+wbc,llm,2,Short blood count panel
+wbc,llm,3,Differential cell count method
+wbc,llm,4,Dichloroethane
+wbc,llm,5,Trichloroacetate
+rbc,text,1,Erythrocytes
+rbc,text,2,Erythrocyte size
+rbc,text,3,Rh
+rbc,text,4,Erythrocyte shape
+rbc,text,5,Reticulocytes
+rbc,llm,1,Blister cells
+rbc,llm,2,Other cells
+rbc,llm,3,Short blood count panel
+rbc,llm,4,Helmet cells
+rbc,llm,5,Pencil cells
+mcv,text,1,Erythrocyte mean corpuscular volume
+mcv,text,2,Acenocoumarol
+mcv,text,3,Circulating tumor cells.prostate
+mcv,text,4,Methanol
+mcv,text,5,Mycobacterium tuberculosis DNA
+mcv,llm,1,Erythrocyte mean corpuscular volume
+mcv,llm,2,Mean sphered cell volume
+mcv,llm,3,Mean platelet component
+mcv,llm,4,Mononuclear cells.immature
+mcv,llm,5,Mycobacterium tuberculosis DNA
+rdw,text,1,Erythrocyte distribution width
+rdw,text,2,Platelet distribution width
+rdw,text,3,Platelet dry mass distribution width
+rdw,text,4,Reticulocyte distribution width
+rdw,text,5,Monocyte distribution width
+rdw,llm,1,Reticulocyte distribution width
+rdw,llm,2,Platelet dry mass distribution width
+rdw,llm,3,Platelet distribution width
+rdw,llm,4,Platelet component distribution width
+rdw,llm,5,Hemoglobin distribution width
+plt,text,1,Stomatocytes
+plt,text,2,Lymphocytes
+plt,text,3,Prolymphocytes
+plt,text,4,Promyelocytes
+plt,text,5,pH
+plt,llm,1,Platelets
+plt,llm,2,Platelets.large
+plt,llm,3,Platelets.small
+plt,llm,4,Platelets panel
+plt,llm,5,Platelets.giant
+mpv,text,1,Platelet mean volume
+mpv,text,2,Mean platelet dry mass
+mpv,text,3,Platelets panel
+mpv,text,4,Mean platelet component
+mpv,text,5,Platelet clump
+mpv,llm,1,Platelet mean volume
+mpv,llm,2,Mean platelet component
+mpv,llm,3,Mean platelet dry mass
+mpv,llm,4,Platelet mean diameter
+mpv,llm,5,Platelets panel
+ne_pct_e,text,1,Neutrophils
+ne_pct_e,text,2,Neutrophils.band form
+ne_pct_e,text,3,Neutrophils.segmented
+ne_pct_e,text,4,Neutrophils.agranular
+ne_pct_e,text,5,Neutrophils.vacuolated
+ne_pct_e,llm,1,Neutrophils.hypersegmented
+ne_pct_e,llm,2,Neutrophils.segmented
+ne_pct_e,llm,3,Neutrophils
+ne_pct_e,llm,4,Neutrophils.hypogranulated
+ne_pct_e,llm,5,Neutrophil associated Ab
+ly_pct_e,text,1,Lymphocytes
+ly_pct_e,text,2,Lymphocytes B
+ly_pct_e,text,3,Lymphocytes.kappa
+ly_pct_e,text,4,Lymphocytes.lambda
+ly_pct_e,text,5,Myelocytes
+ly_pct_e,llm,1,Lymphocyte proliferation
+ly_pct_e,llm,2,Lymphocytes
+ly_pct_e,llm,3,Lymphocytes B
+ly_pct_e,llm,4,Lymphocyte subset interpretation
+ly_pct_e,llm,5,Lymphocyte proliferation mitogen panel
+mo_pct_e,text,1,Monocytes
+mo_pct_e,text,2,Promonocytes
+mo_pct_e,text,3,Monocytes.abnormal
+mo_pct_e,text,4,Monocytes.immature
+mo_pct_e,text,5,Ovalocytes
+mo_pct_e,llm,1,Monocytes
+mo_pct_e,llm,2,Monocyte subsets panel
+mo_pct_e,llm,3,Monocytes+Macrophages/100 leukocytes
+mo_pct_e,llm,4,Monocytes/leukocytes
+mo_pct_e,llm,5,Monocytes.immature
+eo_pct_e,text,1,Eosinophils
+eo_pct_e,text,2,Eosinophils.immature
+eo_pct_e,text,3,Eosinophils/leukocytes
+eo_pct_e,text,4,Eosinophils/100 leukocytes
+eo_pct_e,text,5,Eosinophils.immature/100 leukocytes
+eo_pct_e,llm,1,Eosinophils
+eo_pct_e,llm,2,Eosinophils/leukocytes
+eo_pct_e,llm,3,Eosinophils/100 leukocytes
+eo_pct_e,llm,4,Eosinophils.immature
+eo_pct_e,llm,5,Cholinesterase panel
+ba_pct_e,text,1,Basophils
+ba_pct_e,text,2,Basophils.immature
+ba_pct_e,text,3,Basophilic stippling
+ba_pct_e,text,4,Basophils/leukocytes
+ba_pct_e,text,5,Basophils/100 leukocytes
+ba_pct_e,llm,1,Basophils
+ba_pct_e,llm,2,Basophilic stippling
+ba_pct_e,llm,3,Basophilic stippling.coarse
+ba_pct_e,llm,4,Basophilic stippling.fine
+ba_pct_e,llm,5,Basophils/leukocytes
+ne_e,text,1,Neutrophils
+ne_e,text,2,Neutrophils.band form
+ne_e,text,3,Neutrophils.segmented
+ne_e,text,4,Neutrophils.agranular
+ne_e,text,5,Neutrophils.vacuolated
+ne_e,llm,1,Cola nut basophil bound Ab
+ne_e,llm,2,Festuca elatior basophil bound Ab
+ne_e,llm,3,Neutrophils.band form/100 leukocytes
+ne_e,llm,4,Latex Bencard basophil bound Ab
+ne_e,llm,5,Neutrophils.band form/leukocytes
+ly_e,text,1,Lymphocytes
+ly_e,text,2,Lymphocytes B
+ly_e,text,3,Lymphocytes.kappa
+ly_e,text,4,Lymphocytes.lambda
+ly_e,text,5,Myelocytes
+ly_e,llm,1,Lymphocytes
+ly_e,llm,2,Lymphocytes B
+ly_e,llm,3,Lymphocytes.kappa
+ly_e,llm,4,Lymphocytes.lambda
+ly_e,llm,5,Myelocytes
+gfr_larsson_t,text,1,Retinoate
+gfr_larsson_t,text,2,Gentisate
+gfr_larsson_t,text,3,Finasteride
+gfr_larsson_t,text,4,Ergotamine
+gfr_larsson_t,text,5,Myristoleate
+gfr_larsson_t,llm,1,Neuronal intermediate filament Ab.IgG
+gfr_larsson_t,llm,2,Complement C1 esterase inhibitor actual/Normal
+gfr_larsson_t,llm,3,Neuronal intermediate filament light chain Ab.IgG
+gfr_larsson_t,llm,4,Soluble urokinase plasminogen activator receptor
+gfr_larsson_t,llm,5,Festuca elatior Ab.IgE/IgE.total
+ust_farb,text,1,Color
+ust_farb,text,2,Odor
+ust_farb,text,3,Cytology report
+ust_farb,text,4,Cytomegalovirus Ag
+ust_farb,text,5,Cytomegalovirus DNA
+ust_farb,llm,1,Color
+ust_farb,llm,2,Odor
+ust_farb,llm,3,Cytology report
+ust_farb,llm,4,Cytomegalovirus Ag
+ust_farb,llm,5,Cytomegalovirus DNA
+hct,text,1,Hematocrit
+hct,text,2,Hematocrit/Hemoglobin
+hct,text,3,Catecholamines
+hct,text,4,Megakaryocytes
+hct,text,5,Palmitoylcarnitine (C16)
+hct,llm,1,Hematocrit
+hct,llm,2,Hematocrit/Hemoglobin
+hct,llm,3,Mephobarbital
+hct,llm,4,SUMAtriptan
+hct,llm,5,Hematopoietic progenitor cells
+hba1c,text,1,Hemoglobin A1c/Hemoglobin.total
+hba1c,text,2,HPA-1
+hba1c,text,3,HBA1 gene.c.223G>C
+hba1c,text,4,Hemoglobin A1/Hemoglobin.total
+hba1c,text,5,HPA-1a
+hba1c,llm,1,Hemoglobin A1c
+hba1c,llm,2,Hemoglobin A
+hba1c,llm,3,Hemoglobin C
+hba1c,llm,4,Hemoglobin A2
+hba1c,llm,5,Hemoglobin
+gfrmdrd,text,1,Gentisate
+gfrmdrd,text,2,Retinoate
+gfrmdrd,text,3,Ergotamine
+gfrmdrd,text,4,Myristoleate
+gfrmdrd,text,5,Ethinamate
+gfrmdrd,llm,1,Mitogen stimulated gamma interferon
+gfrmdrd,llm,2,Neuronal intermediate filament Ab.IgG
+gfrmdrd,llm,3,Complement C1 esterase inhibitor actual/Normal
+gfrmdrd,llm,4,Neuronal intermediate filament light chain Ab.IgG
+gfrmdrd,llm,5,Soluble urokinase plasminogen activator receptor
+gfrcapa,text,1,Granulocyte colony stimulating factor
+gfrcapa,text,2,Neutrophil cytoplasmic Ab pattern
+gfrcapa,text,3,Macrophage colony-stimulating factor
+gfrcapa,text,4,Calcium
+gfrcapa,text,5,Coagulation tissue factor induced
+gfrcapa,llm,1,Gemfibrozil
+gfrcapa,llm,2,Mangifera indica Ab.IgE
+gfrcapa,llm,3,Mangifera indica Ab.IgG
+gfrcapa,llm,4,Mangifera indica Ab.IgG4
+gfrcapa,llm,5,Goose feather Ab.IgE/IgE.total
+gfr_ckdepi,text,1,Glomerular filtration rate/1.73 sq M.predicted.non black
+gfr_ckdepi,text,2,Glomerular filtration rate/1.73 sq M.predicted.male
+gfr_ckdepi,text,3,Glomerular filtration rate/1.73 sq M.predicted.female
+gfr_ckdepi,text,4,Glomerular filtration rate/1.73 sq M.predicted
+gfr_ckdepi,text,5,Glomerular filtration rate/1.73 sq M.predicted.black
+gfr_ckdepi,llm,1,Glomerular filtration rate/1.73 sq M.predicted
+gfr_ckdepi,llm,2,Glomerular filtration rate/1.73 sq M.predicted.male
+gfr_ckdepi,llm,3,Glomerular filtration rate/1.73 sq M.predicted.black
+gfr_ckdepi,llm,4,Glomerular filtration rate/1.73 sq M.predicted.female
+gfr_ckdepi,llm,5,Glomerular filtration rate/1.73 sq M.predicted.non black
+alat_s,text,1,Alanine aminotransferase
+alat_s,text,2,Alanine aminotransferase.macromolecular
+alat_s,text,3,Alanine aminotransferase/Aspartate aminotransferase
+alat_s,text,4,Alanine+Ethanolamine
+alat_s,text,5,Alanine
+alat_s,llm,1,Alanine aminotransferase
+alat_s,llm,2,Alanine aminotransferase.macromolecular
+alat_s,llm,3,Alanine aminotransferase/Aspartate aminotransferase
+alat_s,llm,4,Alanine+Ethanolamine
+alat_s,llm,5,Alanine
+asat_s,text,1,Aspartate aminotransferase
+asat_s,text,2,Aspartate aminotransferase.macromolecular
+asat_s,text,3,Aspartate aminotransferase/Alanine aminotransferase
+asat_s,text,4,Aspartate aminotransferase.macromolecular/Aspartate aminotransferase.total
+asat_s,text,5,Aspartate
+asat_s,llm,1,Aspartate aminotransferase
+asat_s,llm,2,Aspartate aminotransferase.macromolecular
+asat_s,llm,3,Aspartate aminotransferase/Alanine aminotransferase
+asat_s,llm,4,Aspartate aminotransferase.macromolecular/Aspartate aminotransferase.total
+asat_s,llm,5,Aspartate
+alb_s,text,1,Albumin
+alb_s,text,2,Prealbumin
+alb_s,text,3,IgG/Albumin
+alb_s,text,4,Aluminum
+alb_s,text,5,Nalbuphine
+alb_s,llm,1,Albumin
+alb_s,llm,2,Prealbumin
+alb_s,llm,3,IgG/Albumin
+alb_s,llm,4,Aluminum
+alb_s,llm,5,Nalbuphine
+ferri,text,1,Ferritin
+ferri,text,2,Etravirine
+ferri,text,3,Periostin
+ferri,text,4,Resistin
+ferri,text,5,cefOXitin
+ferri,llm,1,Ferritin
+ferri,llm,2,Etravirine
+ferri,llm,3,Periostin
+ferri,llm,4,Resistin
+ferri,llm,5,cefOXitin
+ldlch,text,1,Cholesterol
+ldlch,text,2,8(9)-Cholestenol
+ldlch,text,3,7-Dehydrocholesterol
+ldlch,text,4,8-Dehydrocholesterol
+ldlch,text,5,Cholesterol.in LDL
+ldlch,llm,1,Apolipoprotein B/Cholesterol.in LDL
+ldlch,llm,2,Apolipoprotein A-I/Cholesterol.in HDL
+ldlch,llm,3,Palmitoyl protein thioesterase
+ldlch,llm,4,Follitropin^1H post dose triple bolus
+ldlch,llm,5,Follitropin^2H post dose triple bolus
+tsh,text,1,Thyroid stimulating immunoglobulins
+tsh,text,2,Thyrotropin releasing hormone
+tsh,text,3,N-Stearoylsphingosine
+tsh,text,4,Thyroxine.albumin bound
+tsh,text,5,HIV immunoassay testing algorithm interpretation
+tsh,llm,1,Thyroid stimulating immunoglobulins
+tsh,llm,2,Thyroid hormone uptake
+tsh,llm,3,Thymic stromal lymphopoietin
+tsh,llm,4,Thyroid hormone binding ratio
+tsh,llm,5,Thyrotropin releasing hormone
+ft3,text,1,Triiodothyronine.free
+ft3,text,2,Triiodothyronine
+ft3,text,3,Triiodothyronine Ab
+ft3,text,4,Triiodothyronine.reverse
+ft3,text,5,Triiodothyronine.free^baseline
+ft3,llm,1,Triiodothyronine
+ft3,llm,2,Triiodothyronine Ab
+ft3,llm,3,Triiodothyronine.free
+ft3,llm,4,Triiodothyronine.true
+ft3,llm,5,Triiodothyronine/Thyroxine
+ft4,text,1,Thyroxine.free
+ft4,text,2,Thyroxine
+ft4,text,3,Thyroxine free index
+ft4,text,4,Thyroxine Ab
+ft4,text,5,cefTRIAXone.free
+ft4,llm,1,Reboxetine
+ft4,llm,2,Resperine
+ft4,llm,3,Fenthion
+ft4,llm,4,2-Methyltyrosine
+ft4,llm,5,Parathyrin
+tpo_ak,text,1,Total thyroxine binding capacity
+tpo_ak,text,2,pH
+tpo_ak,text,3,Alpha-1-Fetoprotein^^adjusted for diabetes
+tpo_ak,text,4,Pristanate/Phytanate
+tpo_ak,text,5,Triiodothyronine Ab
+tpo_ak,llm,1,Total thyroxine binding capacity
+tpo_ak,llm,2,Mitochondria Ab pattern
+tpo_ak,llm,3,Spondylocladium atrovirens Ab.IgE
+tpo_ak,llm,4,Diamine oxidase
+tpo_ak,llm,5,Erythropoietin Ab
+ph_u,text,1,pH
+ph_u,text,2,Phenol
+ph_u,text,3,Phorate
+ph_u,text,4,Phenols
+ph_u,text,5,Morphine
+ph_u,llm,1,pH
+ph_u,llm,2,Phenol
+ph_u,llm,3,Phorate
+ph_u,llm,4,Phenols
+ph_u,llm,5,Morphine
+leuco_u,text,1,Leukocytes
+leuco_u,text,2,Leukocyte casts
+leuco_u,text,3,Leukocyte clumps
+leuco_u,text,4,Leukocyte esterase
+leuco_u,text,5,Leukocyte esterase+Nitrite
+leuco_u,llm,1,Urinalysis complete panel
+leuco_u,llm,2,Urinalysis panel
+leuco_u,llm,3,Urinalysis type of cast panel
+leuco_u,llm,4,Urinalysis type of crystal panel
+leuco_u,llm,5,Urinalysis specimen collection method
+nitri_u,text,1,Nitrite
+nitri_u,text,2,Nitrate
+nitri_u,text,3,Citrate
+nitri_u,text,4,Anthranilate
+nitri_u,text,5,Nicotine
+nitri_u,llm,1,Nitrite
+nitri_u,llm,2,Nitrate
+nitri_u,llm,3,Citrate
+nitri_u,llm,4,Anthranilate
+nitri_u,llm,5,Nicotine
+prot_u,text,1,Protein
+prot_u,text,2,PARoxetine
+prot_u,text,3,Prolactin
+prot_u,text,4,Protein pattern
+prot_u,text,5,Protein^resting
+prot_u,llm,1,Protein
+prot_u,llm,2,PARoxetine
+prot_u,llm,3,Prolactin
+prot_u,llm,4,Protein pattern
+prot_u,llm,5,Protein^resting
+gluc_u,text,1,Glucose
+gluc_u,text,2,Galactose
+gluc_u,text,3,Lactose
+gluc_u,text,4,Sucrose
+gluc_u,text,5,Glucose^post CFst
+gluc_u,llm,1,Glucose
+gluc_u,llm,2,Galactose
+gluc_u,llm,3,Lactose
+gluc_u,llm,4,Sucrose
+gluc_u,llm,5,Glucose^post CFst
+ket_u,text,1,Ketones
+ket_u,text,2,Acetone
+ket_u,text,3,Estrone
+ket_u,text,4,Ketamine
+ket_u,text,5,Ethylone
+ket_u,llm,1,Ketones
+ket_u,llm,2,Acetone
+ket_u,llm,3,Estrone
+ket_u,llm,4,Ketamine
+ket_u,llm,5,Ethylone
+ubg_u,text,1,Urobilinogen
+ubg_u,text,2,Urobilin
+ubg_u,text,3,Porphobilinogen
+ubg_u,text,4,Maprotiline
+ubg_u,text,5,Globulin/Protein.total
+ubg_u,llm,1,Urobilinogen
+ubg_u,llm,2,Urobilin
+ubg_u,llm,3,Porphobilinogen
+ubg_u,llm,4,Maprotiline
+ubg_u,llm,5,Globulin/Protein.total
+bili_u,text,1,Bilirubin
+bili_u,text,2,Bilirubin crystals
+bili_u,text,3,Bilirubin+Urobilinogen
+bili_u,text,4,Biopterin
+bili_u,text,5,Psilocybin
+bili_u,llm,1,Bilirubin
+bili_u,llm,2,Bilirubin crystals
+bili_u,llm,3,Bilirubin+Urobilinogen
+bili_u,llm,4,Biopterin
+bili_u,llm,5,Psilocybin
+ery_u,text,1,Erythrocytes
+ery_u,text,2,Erythrocyte casts
+ery_u,text,3,Erythrocyte clumps
+ery_u,text,4,Erythrocytes.dysmorphic
+ery_u,text,5,Erythromycin
+ery_u,llm,1,Urinalysis type of crystal panel
+ery_u,llm,2,Urinalysis type of cast panel
+ery_u,llm,3,Urinalysis microscopic panel
+ery_u,llm,4,Urinalysis dipstick W Reflex Culture panel
+ery_u,llm,5,Urinalysis specimen collection method
+hb_u,text,1,Hemoglobin
+hb_u,text,2,Myoglobin
+hb_u,text,3,Hemoglobin.free
+hb_u,text,4,Pemoline
+hb_u,text,5,Theobromine
+hb_u,llm,1,Hemoglobin
+hb_u,llm,2,Myoglobin
+hb_u,llm,3,Hemoglobin.free
+hb_u,llm,4,Pemoline
+hb_u,llm,5,Hemopexin
+sg_u,text,1,Adenosine monophosphate.cyclic/Creatinine
+sg_u,text,2,Adenosine/Creatinine
+sg_u,text,3,Adenosine monophosphate.cyclic stimulation panel
+sg_u,text,4,Adenosine monophosphate.cyclic/Creatinine^baseline
+sg_u,text,5,Adenosine monophosphate.cyclic^2H post XXX challenge
+sg_u,llm,1,Specific gravity
+sg_u,llm,2,Specific gravity^^adjusted to pH 7.4
+sg_u,llm,3,Specimen specific gravity acceptable
+sg_u,llm,4,Specimen condition
+sg_u,llm,5,Specimen creatinine acceptable
