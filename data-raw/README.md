@@ -25,6 +25,6 @@ These are derived from CC BY 4.0 material, so the same licence applies.
 
 ## Not included
 
-`Loinc.csv`, LOINC release [VERSION], from https://loinc.org/downloads/.
+`Loinc.csv`, LOINC release 2.75, from https://loinc.org/downloads/.
 It's free with registration, but the licence doesn't allow redistribution,
 so you need to download it yourself.
